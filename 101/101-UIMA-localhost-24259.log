@@ -1,0 +1,888 @@
+050 ducc_ling Version 2.0.0 compiled Feb 16 2016 at 18:36:48
+4050 Limits:       CORE soft[0] hard[9223372036854775807]
+4050 Limits:        CPU soft[9223372036854775807] hard[9223372036854775807]
+4050 Limits:       DATA soft[9223372036854775807] hard[9223372036854775807]
+4050 Limits:      FSIZE soft[9223372036854775807] hard[9223372036854775807]
+4050 Limits:    MEMLOCK soft[9223372036854775807] hard[9223372036854775807]
+4050 Limits:     NOFILE soft[10240] hard[9223372036854775807]
+4050 Limits:      NPROC soft[709] hard[1064]
+4050 Limits:        RSS soft[9223372036854775807] hard[9223372036854775807]
+4050 Limits:      STACK soft[8388608] hard[67104768]
+1120 Changed to working directory /Users/ducc/src
+3001 Did not find DUCC_LD_LIBRARY_PATH, not setting LD_LIBRARY_PATH.
+Environ[0] = AE_INIT_TIME=5
+Environ[1] = IP=127.0.0.1
+Environ[2] = AE_INIT_RANGE=5
+Environ[3] = USER=ducc
+Environ[4] = HOME=/Users/ducc
+Environ[5] = JobId=101
+Environ[6] = DUCC_PROCESS_LOG_PREFIX=/Users/ducc/src/logs/101/101-UIMA-localhost
+Environ[7] = INIT_ERROR=0
+Environ[8] = ProcessDuccIdFriendly=8
+Environ[9] = LANG=en_US.UTF-8
+Environ[10] = NodeName=localhost
+Environ[11] = ProcessDuccId=c115bdb7-9407-421d-911c-d35b8a1f8869
+1000 Command to exec: /Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/bin/java
+    arg[1]: -DDUCC_HOME=/Users/ducc/apache-uima-ducc-2.0.1
+    arg[2]: -Dducc.deploy.configuration=/Users/ducc/apache-uima-ducc-2.0.1/resources/ducc.properties
+    arg[3]: -Dducc.agent.process.state.update.port=63962
+    arg[4]: -Dducc.process.log.dir=/Users/ducc/src/logs/101/
+    arg[5]: -Dducc.process.log.basename=101-UIMA-localhost
+    arg[6]: -Dducc.job.id=101
+    arg[7]: -Xmx4g
+    arg[8]: -Dducc.deploy.DuccClasspath=/Users/ducc/apache-uima-ducc-2.0.1/lib/uima-ducc/*:/Users/ducc/apache-uima-ducc-2.0.1/apache-uima/lib/uima-core.jar:/Users/ducc/apache-uima-ducc-2.0.1/lib/apache-log4j/*:/Users/ducc/apache-uima-ducc-2.0.1/webserver/lib/*:/Users/ducc/apache-uima-ducc-2.0.1/lib/http-client/*:/Users/ducc/apache-uima-ducc-2.0.1/apache-uima/apache-activemq/lib/*:/Users/ducc/apache-uima-ducc-2.0.1/apache-uima/apache-activemq/lib/optional/*:/Users/ducc/apache-uima-ducc-2.0.1/lib/apache-camel/*:/Users/ducc/apache-uima-ducc-2.0.1/lib/apache-commons/*:/Users/ducc/apache-uima-ducc-2.0.1/lib/springframework/*
+    arg[9]: -Dducc.deploy.JpType=uima
+    arg[10]: -Dducc.deploy.JpThreadCount=2
+    arg[11]: -Dducc.deploy.JdURL=http://127.0.0.1:51735/jdApp
+    arg[12]: -Dducc.deploy.components=job-process
+    arg[13]: -classpath
+    arg[14]: /Users/ducc/src/apache-ctakes-3.2.2/desc:/Users/ducc/src/apache-ctakes-3.2.2/resources:/Users/ducc/src/apache-ctakes-3.2.2/lib/*:/Users/ducc/apache-uima-ducc-2.0.1/lib/*:/Users/ducc/apache-uima-ducc-2.0.1/lib/uima-ducc/user/*
+    arg[15]: org.apache.uima.ducc.user.common.main.DuccJobService
+    arg[16]: /Users/ducc/src/logs/101/101-uima-ae-descriptor-24240.xml
+1001 Command launching...
+Mar 09, 2016 9:34:47 AM org.apache.uima.ducc.user.common.main.DuccJobService start
+INFO: >>>>>>>>> Booting Ducc Container
+09 Mar 2016 09:34:47,191  INFO DUCC.DuccService - J[N/A] T[1] Component  Starting Component 
+{ducc.agent.exclusion.file=/Users/ducc/apache-uima-ducc-2.0.1/resources/exclusion.nodes, file.encoding.pkg=sun.io, ducc.orchestrator.http.node=localhost, ducc.sm.meta.ping.stability=10, ducc.rm.admin.endpoint.type=queue, ducc.agent.managed.process.state.update.endpoint.type=socket, java.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre, ducc.ws.jsp.compilation.directory=/tmp/ducc/jsp, ducc.sm.http.port=19989, ducc.head=localhost, ducc.rm.class.definitions=ducc.classes, ducc.agent.jvm.args=-Xmx500M, ducc.jd.queue.timeout.minutes=5, ducc.broker.memory.options=-Xmx1G, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/endorsed, ducc.orchestrator.state.update.endpoint=activemq:topic:ducc.orchestrator.state, ducc.agent.launcher.process.init.timeout=7200000, ducc.agent.node.inventory.endpoint=activemq:topic:ducc.node.inventory, sun.os.patch.level=unknown, java.vendor.url=http://java.oracle.com/, ducc.deploy.JdURL=http://127.0.0.1:51735/jdApp, ducc.uima-as.endpoint.type=socket, ducc.ws.session.minutes=60, java.version=1.7.0_79, ducc.cli.httpclient.sotimeout=0, ducc.agent.node.metrics.endpoint.type=topic, ducc.broker.server.url.decoration=transport.soWriteTimeout=45000, ducc.signature.required=on, ducc.process.log.dir=/Users/ducc/src/logs/101/, ducc.process.thread.sleep.time=3000, ducc.sm.instance.failure.limit=5, ducc.admin.endpoint=activemq:topic:ducc.admin.channel, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, ducc.jd.state.update.endpoint=activemq:topic:ducc.jd.state, ducc.rm.default.memory=4, ducc.private.resources=/Users/ducc/apache-uima-ducc-2.0.1/resources.private, user.name=ducc, sun.io.unicode.encoding=UnicodeBig, sun.jnu.encoding=UTF-8, java.runtime.name=Java(TM) SE Runtime Environment, ducc.broker.protocol=tcp, ducc.broker.credentials.file=/Users/ducc/apache-uima-ducc-2.0.1/resources.private/ducc-broker-credentials.properties, java.specification.name=Java Platform API Specification, ducc.cluster.name=Apache UIMA-DUCC, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, ducc.pm.jvm.args=-Xmx1G, user.timezone=America/Los_Angeles, ducc.pm.state.publish.rate=15000, ducc.orchestrator.jvm.args=-Xmx1G, path.separator=:, ducc.jvm=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/bin/java, ducc.orchestrator.maintenance.rate=60000, ducc.orchestrator.state.update.endpoint.type=topic, ducc.deploy.JpType=uima, file.encoding=UTF-8, sun.java.command=org.apache.uima.ducc.user.common.main.DuccJobService /Users/ducc/src/logs/101/101-uima-ae-descriptor-24240.xml, ducc.jd.configuration.class=org.apache.uima.ducc.transport.configuration.jd.JobDriverConfiguration, ducc.orchestrator.http.port=19988, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ducc.agent.node.inventory.publish.rate.skip=3, ducc.rm.state.update.endpoint=activemq:topic:ducc.rm.state, ducc.service.configuration.class=org.apache.uima.ducc.transport.configuration.service.ServiceConfiguration, ducc.environment.propagated=USER HOME LANG DUCC_SERVICE_INSTANCE, ducc.locale.country=us, ducc.agent.launcher.cgroups.subsystems=memory,cpu, java.io.tmpdir=/var/folders/jz/yt8kzz7n27nc62lsr5kr3k540000gp/T/, user.language=en, line.separator=
+, ducc.deploy.configuration=/Users/ducc/apache-uima-ducc-2.0.1/resources/ducc.properties, ducc.jd.queue.prefix=ducc.jd.queue., java.vm.info=mixed mode, ducc.agent.managed.process.state.update.endpoint.params=transferExchange=true&sync=false, ducc.jd.host.user=System, ducc.job.id=101, java.vm.specification.name=Java Virtual Machine Specification, ducc.process.request.timeout=30000, ducc.rm.initialization.cap=1, ducc.broker.url.decoration=jms.useCompression=true, ducc.agent.node.metrics.publish.rate=30000, ducc.rm.jvm.args=-Xmx1G, ducc.admin.endpoint.type=topic, ducc.ws.port.ssl=42155, ducc.ws.jvm.args=-Xmx2G -Djava.util.Arrays.useLegacyMergeSort=true, ducc.broker.home=/Users/ducc/apache-uima-ducc-2.0.1/apache-uima/apache-activemq, ducc.sm.meta.ping.rate=60000, ducc.broker.jmx.port=1100, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, ducc.jd.host.class=JobDriver, ducc.agent.managed.process.state.update.endpoint=mina:tcp://localhost:, ducc.broker.configuration=conf/activemq-ducc.xml, ducc.agent.launcher.ducc_spawn_path=/Users/ducc/apache-uima-ducc-2.0.1/admin/x86_64/ducc_ling, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, ducc.sm.default.linger=300000, ducc.rm.user.registry=ducc.users, ducc.locale.language=en, ducc.ws.visualization.strip.domain=true, ducc.sm.configuration.class=org.apache.uima.ducc.sm.config.ServiceManagerConfiguration, ducc.ws.max.history.entries=4096, ducc.rm.fragmentation.threshold=8, ducc.agent.request.endpoint=activemq:topic:ducc.agent, ducc.node.min.swap.threshold=0, ducc.orchestrator.unmanaged.reservations.accepted=true, ducc.jd.share.quantum=400, gopherProxySet=false, ducc.sm.jvm.args=-Xmx1G, ducc.process.uima.as.container.class=org.apache.uima.ducc.user.jp.UimaASProcessContainer, ducc.rm.state.publish.ratio=1, ducc.ws.login.enabled=false, ducc.sm.instance.failure.max=5, ducc.sm.instance.failure.window=30, ducc.threads.limit=500, ducc.job-process.configuration.class=org.apache.uima.ducc.transport.configuration.jp.JobProcessConfiguration, ducc.agent.node.inventory.publish.rate=10000, ducc.jd.startup.initialization.error.limit=1, os.name=Mac OS X, java.specification.vendor=Oracle Corporation, ducc.jd.host.memory.size=2GB, ducc.jd.host.number.of.machines=1, ducc.rm.prediction=true, ducc.flow-controller.specifier=org.apache.uima.ducc.FlowController, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, ducc.deploy.components=job-process, ducc.sm.default.monitor.class=org.apache.uima.ducc.cli.UimaAsPing, ducc.rm.init.stability=2, ducc.broker.url=tcp://localhost:61617?jms.useCompression=true, java.library.path=/Users/ducc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., ducc.uima-as.saxon.jar.path=file:/Users/ducc/apache-uima-ducc-2.0.1/apache-uima/saxon/saxon8.jar, ducc.rm.admin.endpoint=activemq:queue:ducc.rm.admin.channel, java.class.version=51.0, ducc.jd.host.description=Job Driver, ducc.pm.state.update.endpoint=activemq:topic:ducc.pm.state, ducc.sm.init.failure.limit=1, ducc.agent.launcher.cgroups.enable=true, ducc.rm.configuration.class=org.apache.uima.ducc.rm.config.ResourceManagerConfiguration, ducc.agent.process.state.update.port=63962, ducc.orchestrator.state.publish.rate=10000, ducc.agent.launcher.use.ducc_spawn=true, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib, ducc.ws.configuration.class=org.apache.uima.ducc.ws.config.WebServerConfiguration, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, ducc.sm.state.update.endpoint=activemq:topic:ducc.sm.state, ducc.orchestrator.start.type=warm, ducc.ws.requestLog.RetainDays=30, DUCC_HOME=/Users/ducc/apache-uima-ducc-2.0.1, ducc.driver.jvm.args=-Xmx300M, ducc.uima-as.endpoint=mina:tcp://localhost:, ducc.agent.request.endpoint.type=topic, ducc.deploy.DuccClasspath=/Users/ducc/apache-uima-ducc-2.0.1/lib/uima-ducc/*:/Users/ducc/apache-uima-ducc-2.0.1/apache-uima/lib/uima-core.jar:/Users/ducc/apache-uima-ducc-2.0.1/lib/apache-log4j/*:/Users/ducc/apache-uima-ducc-2.0.1/webserver/lib/*:/Users/ducc/apache-uima-ducc-2.0.1/lib/http-client/*:/Users/ducc/apache-uima-ducc-2.0.1/apache-uima/apache-activemq/lib/*:/Users/ducc/apache-uima-ducc-2.0.1/apache-uima/apache-activemq/lib/optional/*:/Users/ducc/apache-uima-ducc-2.0.1/lib/apache-camel/*:/Users/ducc/apache-uima-ducc-2.0.1/lib/apache-commons/*:/Users/ducc/apache-uima-ducc-2.0.1/lib/springframework/*, ducc.broker.port=61617, java.vm.specification.version=1.7, ducc.uima-as.dd2spring.xsl.path=/Users/ducc/apache-uima-ducc-2.0.1/apache-uima/bin/dd2spring.xsl, awt.toolkit=sun.awt.HToolkit, ducc.agent.node.inventory.endpoint.type=topic, ducc.broker.automanage=true, sun.cpu.isalist=, ducc.rm.expand.by.doubling=true, java.ext.dirs=/Users/ducc/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, os.version=10.10.5, ducc.rm.eviction.policy=SHRINK_BY_INVESTMENT, ducc.pm.request.endpoint.type=queue, ducc.process.log.basename=101-UIMA-localhost, user.home=/Users/ducc, ducc.ws.automatic.cancel.minutes=5, java.vm.vendor=Oracle Corporation, ducc.agent.launcher.process.stop.timeout=60000, ducc.agent.node.metrics.sys.gid.max=500, ducc.sm.http.node=localhost, user.dir=/Users/ducc/src, ducc.agent.configuration.class=org.apache.uima.ducc.agent.config.AgentConfiguration, ducc.agent.launcher.cgroups.utils.dir=/usr/bin,/bin, ducc.agent.launcher.thread.pool.size=10, sun.cpu.endian=little, ducc.jd.state.update.endpoint.type=topic, ducc.jms.provider=activemq, java.vm.version=24.79-b02, java.class.path=/Users/ducc/src/apache-ctakes-3.2.2/desc:/Users/ducc/src/apache-ctakes-3.2.2/resources:/Users/ducc/src/apache-ctakes-3.2.2/lib/ant-1.9.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ant-contrib-1.0b3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ant-launcher-1.9.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/antlr-2.7.7.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/aopalliance-1.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/args4j-2.0.16.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/asm-3.3.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/aspectjweaver-1.7.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/backport-util-concurrent-3.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cglib-2.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/clearnlp-1.3.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-corpus-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-eval-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-feature-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-ml-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-ml-crfsuite-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-ml-liblinear-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-ml-libsvm-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-ml-opennlp-maxent-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-ml-svmlight-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-ml-tksvmlight-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-opennlp-tools-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-snowball-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-timeml-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-token-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-type-system-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cleartk-util-2.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/commons-beanutils-1.8.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/commons-cli-1.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/commons-collections-3.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/commons-compress-1.4.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/commons-dbcp-1.4.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/commons-el-1.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/commons-io-2.0.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/commons-jxpath-1.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/commons-lang-2.4.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/commons-logging-1.1.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/commons-logging-api-1.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/commons-pool-1.5.4.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-assertion-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-chunker-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-chunker-res-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-clinical-pipeline-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-constituency-parser-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-constituency-parser-res-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-context-tokenizer-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-core-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-core-res-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-coreference-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-coreference-res-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-dependency-parser-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-dependency-parser-res-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-dictionary-lookup-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-dictionary-lookup-fast-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-dictionary-lookup-res-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-drug-ner-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-drug-ner-res-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-lvg-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-ne-contexts-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-ne-contexts-res-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-pos-tagger-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-pos-tagger-res-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-preprocessor-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-relation-extractor-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-relation-extractor-res-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-side-effect-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-side-effect-res-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-smoking-status-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-smoking-status-res-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-temporal-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-temporal-res-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-type-system-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-utils-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-ytex-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-ytex-res-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-ytex-uima-3.2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ctakes-ytex-web-3.2.2-classes.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cxf-api-2.7.8.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cxf-rt-bindings-soap-2.7.8.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cxf-rt-bindings-xml-2.7.8.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cxf-rt-core-2.7.8.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cxf-rt-databinding-aegis-2.7.8.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cxf-rt-databinding-jaxb-2.7.8.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cxf-rt-frontend-jaxrs-2.7.8.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cxf-rt-frontend-jaxws-2.7.8.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cxf-rt-frontend-simple-2.7.8.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cxf-rt-transports-http-2.7.8.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cxf-rt-ws-addr-2.7.8.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/cxf-rt-ws-policy-2.7.8.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/de.tudarmstadt.ukp.dkpro.core.api.metadata-asl-1.6.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/de.tudarmstadt.ukp.dkpro.core.api.resources-asl-1.6.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/diffutils-1.3.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/dom4j-1.6.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ehcache-core-2.4.6.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/el-api-2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/el-impl-2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/findstructapi-0.0.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/geronimo-javamail_1.4_spec-1.7.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/guava-10.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/hppc-0.4.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/hsqldb-1.8.0.10.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/icefaces-2.0.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/icefaces-ace-2.0.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/icefaces-compat-2.0.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/ivy-2.3.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jackson-core-asl-1.5.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jackson-mapper-asl-1.5.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jakarta-regexp-1.4.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/javassist-3.15.0-GA.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/javax.annotation-api-1.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/javax.el-3.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/javax.servlet-api-3.1.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/javax.servlet.jsp-2.3.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/javax.servlet.jsp-api-2.3.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/javax.ws.rs-api-2.0-m10.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jaxb-api-2.2.5.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jaxb-impl-2.2.5.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jcarafe-core_2.9.1-0.9.8.3.RC4.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jcarafe-ext_2.9.1-0.9.8.3.RC4.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jchronic-0.2.6.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jdom-1.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jdom-2.0.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jdom2-2.0.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-annotations-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-http-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-io-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-jaas-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-jndi-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-jsp-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-plus-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-runner-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-schemas-3.1.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-security-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-server-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-servlet-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-util-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-webapp-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jetty-xml-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jewelcli-0.8.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jregex-1.2_01.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jsf-api-2.1.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jsf-impl-2.1.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jsp-api-2.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jsr107cache-1.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jsr305-1.3.9.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jstl-1.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jVinci-2.4.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jwi-2.2.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/jwnl-1.3.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/liblinear-1.94.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/libsvm-3.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/log4j-1.2.16.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/lucene-analyzers-common-4.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/lucene-core-4.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/lucene-queries-4.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/lucene-queryparser-4.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/lucene-sandbox-4.0.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/lucene-snowball-3.0.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/lvg2010dist-0.0.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/maven-model-3.0.5.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/med-facts-i2b2-1.2-SNAPSHOT.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/med-facts-zoner-1.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/neethi-3.0.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/openaifsm-0.0.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/opennlp-maxent-3.0.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/opennlp-tools-1.5.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/opennlp-uima-1.5.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/org.eclipse.jdt.core-3.8.2.v20130121.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/org.objectweb.asm-3.1.0.v200803061910.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/plexus-utils-2.0.6.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/sbinary_2.9.0-0.4.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/scala-library-2.9.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/slf4j-api-1.6.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/slf4j-log4j12-1.6.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/solr-commons-csv-3.5.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/spring-aop-3.1.2.RELEASE.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/spring-asm-3.1.2.RELEASE.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/spring-beans-3.1.2.RELEASE.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/spring-context-3.1.2.RELEASE.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/spring-core-3.1.2.RELEASE.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/spring-expression-3.1.2.RELEASE.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/spring-jdbc-3.1.2.RELEASE.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/spring-orm-3.1.2.RELEASE.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/spring-tx-3.1.2.RELEASE.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/spring-web-3.1.2.RELEASE.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/sqlwrapper-0.0.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/stax2-api-3.1.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/threetenbp-0.8.1.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/timenorm-0.9.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/uimafit-core-2.1.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/uimaj-adapter-vinci-2.4.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/uimaj-core-2.4.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/uimaj-cpe-2.4.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/uimaj-document-annotation-2.5.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/uimaj-examples-2.4.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/uimaj-tools-2.6.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/websocket-api-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/websocket-client-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/websocket-common-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/websocket-server-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/websocket-servlet-9.1.0.M0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/woodstox-core-asl-4.2.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/wsdl4j-1.6.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/xercesImpl-2.10.0.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/xml-apis-1.4.01.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/xml-resolver-1.2.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/xmlschema-core-2.0.3.jar:/Users/ducc/src/apache-ctakes-3.2.2/lib/xz-1.0.jar:/Users/ducc/apache-uima-ducc-2.0.1/lib/uima-ducc-cli.jar:/Users/ducc/apache-uima-ducc-2.0.1/lib/uima-ducc/user/uima-ducc-user-2.0.1.jar, ducc.broker.name=localhost, ducc.pm.request.endpoint=activemq:queue:ducc.pm, os.arch=x86_64, ducc.rm.node.stability=5, ducc.sm.state.update.endpoint.type=topic, ducc.uima-as.configuration.class=org.apache.uima.ducc.transport.configuration.jp.JobProcessConfiguration, ducc.deploy.JpThreadCount=2, ducc.rm.prediction.fudge=120000, sun.java.launcher=SUN_STANDARD, ducc.ws.port=42133, java.vm.specification.vendor=Oracle Corporation, ducc.agent.swap.usage.script=/Users/ducc/apache-uima-ducc-2.0.1/bin/ducc_get_process_swap_usage.sh, file.separator=/, ducc.broker.hostname=localhost, java.runtime.version=1.7.0_79-b15, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/classes, ducc.process.uima.container.class=org.apache.uima.ducc.user.jp.UimaProcessContainer, ducc.agent.node.metrics.endpoint=activemq:topic:ducc.node.metrics, ducc.jd.state.publish.rate=15000, ducc.pm.configuration.class=org.apache.uima.ducc.pm.config.ProcessManagerConfiguration, ducc.agent.share.size.fudge.factor=5, ducc.agent.rogue.process.exclusion.filter=sshd:,-bash,-sh,/bin/sh,/bin/bash,grep,ps, ducc.jmx.port=2099, ducc.uima-as.endpoint.params=transferExchange=true&sync=false, ducc.sm.meta.ping.timeout=15000, user.country=US, ducc.rm.state.update.endpoint.type=topic, ducc.pm.state.update.endpoint.type=topic, ducc.rm.scheduler=org.apache.uima.ducc.rm.scheduler.NodepoolScheduler, java.vendor=Oracle Corporation, ducc.rm.share.quantum=1, ducc.orchestrator.configuration.class=org.apache.uima.ducc.orchestrator.config.OrchestratorConfiguration, ducc.agent.rogue.process.user.exclusion.filter=, java.specification.version=1.7, sun.arch.data.model=64}
+09 Mar 2016 09:34:47,667  INFO JobProcessComponent - T[1] Component  Starting Component UimaProcess
+>>>>>>>>>>>>>>> Running with AMQ Credentials
+#######################################################
+## Agent Service State Update Endpoint:mina:tcp://localhost:63962?transferExchange=true&sync=false ##
+#######################################################
+09 Mar 2016 09:34:47,688  INFO JobProcessComponent - T[1] getProcessManagerInstance  Overriding Default Thread Sleep Time - New Value 3000 ms
+09 Mar 2016 09:34:47,688  INFO JobProcessComponent - T[1] getProcessManagerInstance  Overriding Default Process Request Timeout - New Timeout 30000 ms
+Service Wrapper Starting Request Channel on Endpoint:mina:tcp://localhost:51768?transferExchange=true&sync=false
+Starting Camel. Use ctrl + c to terminate the JVM.
+
+09 Mar 2016 09:34:47,731  INFO JobProcessComponent - T[1] boot  Starting Camel. Use ctrl + c to terminate the JVM.
+
+Mar 09, 2016 9:34:47 AM org.apache.uima.ducc.user.common.main.DuccJobService start
+INFO: <<<<<<<< Ducc Container booted
+Mar 09, 2016 9:34:47 AM org.apache.uima.ducc.user.common.main.DuccJobService start
+INFO: >>>>>>>>> Running Ducc Container
+09 Mar 2016 09:34:47,961  INFO JobProcessComponent - T[1] start  .....Starting Camel Context
+09 Mar 2016 09:34:48,157  INFO JobProcessComponent - T[1] start  ---OR Route in Camel Context-mina://tcp://localhost:51768?sync=false&transferExchange=true Route State:Started
+09 Mar 2016 09:34:48,157  INFO JobProcessComponent - T[1] start  ..... Camel Initialized and Started
+09 Mar 2016 09:34:48,157  INFO JobProcessComponent - T[1] start  ..... Starting JMX Agent
+09 Mar 2016 09:34:48,239  INFO JobProcessComponent - T[1] start  ..... JMX Agent Ready
+09 Mar 2016 09:34:48,239  INFO JobProcessComponent - T[1] start  Connect jConsole to this process using JMX URL:service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+09 Mar 2016 09:34:48,274  INFO AgentSession - T[1] notifyAgentWithStatus  ... Job Process State Changed - PID:24259. Process State: Initializing. JMX Url:service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi Dispatched State Update Event to Agent with IP:127.0.0.1
+DuccAbstractProcessContainer.initialize() >>>>>>>>> Initializing User Container
+UIMA Version:2.4.0
+DuccAbstractProcessContainer.initialize() <<<<<<<< User Container initialized
+09 Mar 2016 09:34:48,277  INFO JobProcessComponent - T[1] start  Ducc JP JobType=uima
+09 Mar 2016 09:34:58,417  INFO JobProcessComponent - T[1] start  The JP Connected To JD Using URL http://127.0.0.1:51735/jdApp
+JMX Connect String:service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+09 Mar 2016 09:34:58,417  INFO JobProcessComponent - T[1] start  Starting 2 Process Threads - JMX Connect String:service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+09 Mar 2016 09:34:58,420  INFO HttpWorkerThread - T[28] HttpWorkerThread.run()  Starting JP Process Thread Id:28
+09 Mar 2016 09:34:58,420  INFO HttpWorkerThread - T[29] HttpWorkerThread.run()  Starting JP Process Thread Id:29
+DuccAbstractProcessContainer.deploy() >>>>>>>>> Deploying User Container
+....... UimaProcessContainer.doDeploy()
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Retreiving an instance of org.apache.log4j.Logger.
+log4j: Setting [ProgressAppender] additivity to [false].
+log4j: Level value for ProgressAppender is  [INFO].
+log4j: ProgressAppender level set to INFO
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%m].
+log4j: Adding appender named [noEolAppender] to category [ProgressAppender].
+log4j: Retreiving an instance of org.apache.log4j.Logger.
+log4j: Setting [ProgressDone] additivity to [false].
+log4j: Level value for ProgressDone is  [INFO].
+log4j: ProgressDone level set to INFO
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%m%n].
+log4j: Adding appender named [eolAppender] to category [ProgressDone].
+log4j: Level value for root is  [INFO].
+log4j: root level set to INFO
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{dd MMM yyyy HH:mm:ss} %5p %c{1} - %m%n].
+log4j: Adding appender named [consoleAppender] to category [root].
+09 Mar 2016 09:34:59  INFO ClearNLPDependencyParserAE - using Morphy analysis? true
+Loading configuration.
+Loading feature templates.
+Loading lexica.
+Loading model:
+........................................................................................
+09 Mar 2016 09:35:07  INFO TokenizerAnnotatorPTB - Initializing org.apache.ctakes.core.ae.TokenizerAnnotatorPTB
+09 Mar 2016 09:35:07  INFO ContextDependentTokenizerAnnotator - Finite state machines loaded.
+09 Mar 2016 09:35:07  INFO ConstituencyParser - Initializing parser...
+09 Mar 2016 09:35:08,286  INFO AgentSession - T[27] notifyAgentWithStatus  ... Job Process State Changed - PID:24259. Process State: Initializing. JMX Url:N/A Dispatched State Update Event to Agent with IP:127.0.0.1
+09 Mar 2016 09:35:09  INFO ContextAnnotator - SCOPE ORDER: [1, 3]
+09 Mar 2016 09:35:09  INFO StatusContextAnalyzer - initBoundaryData() called for ContextInitializer
+09 Mar 2016 09:35:09  INFO ContextAnnotator - SCOPE ORDER: [1, 3]
+09 Mar 2016 09:35:09  INFO NegationContextAnalyzer - initBoundaryData() called for ContextInitializer
+09 Mar 2016 09:35:09  INFO SentenceDetector - Sentence detector model file: org/apache/ctakes/core/sentdetect/sd-med-model.zip
+09 Mar 2016 09:35:10  INFO POSTagger - POS tagger model file: org/apache/ctakes/postagger/models/mayo-pos.zip
+Loading configuration.
+Loading feature templates.
+Loading model:
+.
+Loading configuration.
+Loading feature templates.
+Loading lexica.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.......
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+..........
+Loading model:
+.
+Loading model:
+...
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.....
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+........
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+........
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.....
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+..............
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+....
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.......
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.....
+Loading model:
+......
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+....
+Loading model:
+...
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.......
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.......
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading configuration.
+Loading feature templates.
+Loading lexica.
+Loading model:
+................................
+Loading model:
+.............................
+09 Mar 2016 09:35:12  INFO Chunker - Chunker model file: org/apache/ctakes/chunker/models/chunker-model.zip
+09 Mar 2016 09:35:14  INFO JdbcConnectionResourceImpl - Connection established to: jdbc:hsqldb:res:org/apache/ctakes/dictionary/lookup/umls2011ab/umls
+09 Mar 2016 09:35:14  INFO JdbcConnectionResourceImpl - Connection established to: jdbc:hsqldb:res:org/apache/ctakes/dictionary/lookup/rxnorm-hsqldb/umls
+09 Mar 2016 09:35:14  INFO JdbcConnectionResourceImpl - Connection established to: jdbc:hsqldb:res:org/apache/ctakes/dictionary/lookup/orange_book_hsqldb/umls
+09 Mar 2016 09:35:14  INFO UmlsDictionaryLookupAnnotator - Parsing descriptor: /Users/ducc/src/apache-ctakes-3.2.2/resources/org/apache/ctakes/dictionary/lookup/LookupDesc_Db.xml
+09 Mar 2016 09:35:14  INFO FirstTokenPermLookupInitializerImpl - Exclusion tagset loaded: [dt, to, rp, ls, pos, md, vbd, vbg, vb, ex, vbp, vbn, pdt, vbz, wp, wrb, in, wps, pp$, prp$, wdt, prp, pp, cc, cd]
+09 Mar 2016 09:35:14  INFO FirstTokenPermLookupInitializerImpl - Exclusion tagset loaded: [to, dt, rp, ex, vbp, ls, vbn, pdt, wp, vbz, wrb, in, pos, wps, md, wdt, pp$, vbd, vb, vbg, pp, cc, cd]
+09 Mar 2016 09:35:14  INFO UmlsDictionaryLookupAnnotator - Using ctakes.umlsaddr: https://uts-ws.nlm.nih.gov/restful/isValidUMLSUser: selina
+09 Mar 2016 09:35:15  INFO LvgCmdApiResourceImpl - Loading NLM Norm and Lvg with config file = /Users/ducc/src/apache-ctakes-3.2.2/resources/org/apache/ctakes/lvg/data/config/lvg.properties
+09 Mar 2016 09:35:15  INFO LvgCmdApiResourceImpl -   config file absolute path = /Users/ducc/src/apache-ctakes-3.2.2/resources/org/apache/ctakes/lvg/data/config/lvg.properties
+09 Mar 2016 09:35:15  INFO LvgCmdApiResourceImpl - cwd = /Users/ducc/src
+09 Mar 2016 09:35:15  INFO LvgCmdApiResourceImpl - cd /Users/ducc/src/apache-ctakes-3.2.2/resources/org/apache/ctakes/lvg/
+09 Mar 2016 09:35:15  INFO LvgCmdApiResourceImpl - cd /Users/ducc/src
+DuccAbstractProcessContainer.deploy() <<<<<<<< User Container deployed
+.... Deployed Processing Container - Initialization Successful - Thread 28
+DuccAbstractProcessContainer.deploy() >>>>>>>>> Deploying User Container
+....... UimaProcessContainer.doDeploy()
+09 Mar 2016 09:35:15  INFO ClearNLPDependencyParserAE - using Morphy analysis? true
+Loading configuration.
+Loading feature templates.
+Loading lexica.
+Loading model:
+........................................................................................
+09 Mar 2016 09:35:25  INFO TokenizerAnnotatorPTB - Initializing org.apache.ctakes.core.ae.TokenizerAnnotatorPTB
+09 Mar 2016 09:35:25  INFO ContextDependentTokenizerAnnotator - Finite state machines loaded.
+09 Mar 2016 09:35:25  INFO ConstituencyParser - Initializing parser...
+09 Mar 2016 09:35:27  INFO ContextAnnotator - SCOPE ORDER: [1, 3]
+09 Mar 2016 09:35:27  INFO StatusContextAnalyzer - initBoundaryData() called for ContextInitializer
+09 Mar 2016 09:35:27  INFO ContextAnnotator - SCOPE ORDER: [1, 3]
+09 Mar 2016 09:35:27  INFO NegationContextAnalyzer - initBoundaryData() called for ContextInitializer
+09 Mar 2016 09:35:27  INFO SentenceDetector - Sentence detector model file: org/apache/ctakes/core/sentdetect/sd-med-model.zip
+09 Mar 2016 09:35:27  INFO POSTagger - POS tagger model file: org/apache/ctakes/postagger/models/mayo-pos.zip
+Loading configuration.
+Loading feature templates.
+Loading model:
+.
+Loading configuration.
+Loading feature templates.
+Loading lexica.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.......
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+..........
+Loading model:
+.
+Loading model:
+...
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.....
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+........
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+........
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.....
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+..............
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+....
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.......
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.....
+Loading model:
+......
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+....
+Loading model:
+...
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading model:
+.......
+Loading model:
+.
+Loading model:
+.
+Loading model:
+....
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.......
+Loading model:
+.
+Loading model:
+.
+Loading model:
+.
+Loading model:
+...
+Loading model:
+.
+Loading configuration.
+Loading feature templates.
+Loading lexica.
+Loading model:
+................................
+Loading model:
+.............................
+09 Mar 2016 09:35:30  INFO Chunker - Chunker model file: org/apache/ctakes/chunker/models/chunker-model.zip
+09 Mar 2016 09:35:31  INFO UmlsDictionaryLookupAnnotator - Parsing descriptor: /Users/ducc/src/apache-ctakes-3.2.2/resources/org/apache/ctakes/dictionary/lookup/LookupDesc_Db.xml
+09 Mar 2016 09:35:31  INFO FirstTokenPermLookupInitializerImpl - Exclusion tagset loaded: [dt, to, rp, ls, pos, md, vbd, vbg, vb, ex, vbp, vbn, pdt, vbz, wp, wrb, in, wps, pp$, prp$, wdt, prp, pp, cc, cd]
+09 Mar 2016 09:35:31  INFO FirstTokenPermLookupInitializerImpl - Exclusion tagset loaded: [to, dt, rp, ex, vbp, ls, vbn, pdt, wp, vbz, wrb, in, pos, wps, md, wdt, pp$, vbd, vb, vbg, pp, cc, cd]
+09 Mar 2016 09:35:31  INFO UmlsDictionaryLookupAnnotator - Using ctakes.umlsaddr: https://uts-ws.nlm.nih.gov/restful/isValidUMLSUser: selina
+DuccAbstractProcessContainer.deploy() <<<<<<<< User Container deployed
+.... Deployed Processing Container - Initialization Successful - Thread 29
+09 Mar 2016 09:35:32,335  INFO JobProcessComponent - T[29] setState  Notifying Agent New State:Running
+09 Mar 2016 09:35:32,336  INFO AgentSession - T[1] notifyAgentWithStatus  ... Job Process State Changed - PID:24259. Process State: Running. JMX Url:service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi Dispatched State Update Event to Agent with IP:127.0.0.1
+09 Mar 2016 09:35:32,337  INFO AgentSession - T[29] notifyAgentWithStatus  ... Job Process State Changed - PID:24259. Process State: Running. JMX Url:service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi Dispatched State Update Event to Agent with IP:127.0.0.1
+09 Mar 2016 09:35:32,337  INFO HttpWorkerThread - T[29] HttpWorkerThread.run()  Begin Processing Work Items - Thread Id:29
+09 Mar 2016 09:35:32,337  INFO HttpWorkerThread - T[28] HttpWorkerThread.run()  Begin Processing Work Items - Thread Id:28
+09 Mar 2016 09:35:32,871  INFO HttpWorkerThread - T[28] run  Thread:28 Recv'd WI:1
+09 Mar 2016 09:35:33  INFO SentenceDetector - Starting processing.
+09 Mar 2016 09:35:33  INFO TokenizerAnnotatorPTB - process(JCas) in org.apache.ctakes.core.ae.TokenizerAnnotatorPTB
+09 Mar 2016 09:35:33  INFO LvgAnnotator - process(JCas)
+09 Mar 2016 09:35:33  INFO ContextDependentTokenizerAnnotator - process(JCas)
+09 Mar 2016 09:35:33  INFO POSTagger - process(JCas)
+09 Mar 2016 09:35:33  INFO Chunker -  process(JCas)
+09 Mar 2016 09:35:33  INFO ChunkAdjuster -  process(JCas)
+09 Mar 2016 09:35:33  INFO ChunkAdjuster -  process(JCas)
+09 Mar 2016 09:35:33  INFO CopyAnnotator - process(JCas)
+09 Mar 2016 09:35:33  INFO OverlapAnnotator - process(JCas)
+09 Mar 2016 09:35:33  INFO UmlsDictionaryLookupAnnotator - process(JCas)
+09 Mar 2016 09:35:36  INFO MaxentParserWrapper - Started processing: inputfile.txt
+Couldn't find parse for: Additionally, the co-stimulatory effects of IMiD
+09 Mar 2016 09:35:38  INFO MaxentParserWrapper - Done parsing: inputfile.txt
+09 Mar 2016 09:35:40  INFO CasConsumer - Started
+09 Mar 2016 09:35:41,096  INFO HttpWorkerThread - T[28] run  Thread:28 sent END for WI:1
+>>>>>>>>> Process Received a Message. Is Process target for message:true. Target PID:24259
+... JobProcessComponent - Stopping Service Adapter
+09 Mar 2016 09:38:11,849  WARN HttpWorkerThread - T[28] run  EXITING WorkThread ID:28
+EXITING WorkThread ID:28
+09 Mar 2016 09:38:12,659  WARN HttpWorkerThread - T[29] run  EXITING WorkThread ID:29
+EXITING WorkThread ID:29
+... JobProcessComponent - Stopping Service Adapter
+09 Mar 2016 09:38:12,660  INFO JobProcessComponent - T[37] stop  ----------stop() called
+09 Mar 2016 09:38:12,660  INFO JobProcessComponent - T[37] stop  Stopping Camel Routes
+09 Mar 2016 09:38:12,660  INFO JobProcessComponent - T[23] start  DUCC Service Caught Kill Signal - Registering Killer Task and Stopping ...

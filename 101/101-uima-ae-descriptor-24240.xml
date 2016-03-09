@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+    <primitive>false</primitive>
+    <delegateAnalysisEngineSpecifiers>
+        <delegateAnalysisEngine key="AggregatePlaintextUMLSProcessor">
+            <import location="file:/Users/ducc/src/apache-ctakes-3.2.2/desc/ctakes-clinical-pipeline/desc/analysis_engine/AggregatePlaintextUMLSProcessor.xml"/>
+        </delegateAnalysisEngine>
+        <delegateAnalysisEngine key="FileWriterCasConsumer">
+            <import location="file:/Users/ducc/src/apache-ctakes-3.2.2/desc/ctakes-core/desc/cas_consumer/FileWriterCasConsumer.xml"/>
+        </delegateAnalysisEngine>
+    </delegateAnalysisEngineSpecifiers>
+    <flowController key="FixedFlowController">
+        <import name="org.apache.uima.ducc.FlowController"/>
+    </flowController>
+    <analysisEngineMetaData>
+        <name>DUCC.Job</name>
+        <configurationParameters>
+            <configurationParameter>
+                <name>outputDir</name>
+                <type>String</type>
+                <multiValued>false</multiValued>
+                <mandatory>false</mandatory>
+                <overrides>
+                    <parameter>FileWriterCasConsumer/outputDir</parameter>
+                </overrides>
+            </configurationParameter>
+        </configurationParameters>
+        <configurationParameterSettings>
+            <nameValuePair>
+                <name>outputDir</name>
+                <value>
+                    <string>/Users/ducc/shangridocs/shangridocs-services/src/main/resources/buffer/outfiles</string>
+                </value>
+            </nameValuePair>
+        </configurationParameterSettings>
+        <flowConstraints>
+            <fixedFlow>
+                <node>AggregatePlaintextUMLSProcessor</node>
+                <node>FileWriterCasConsumer</node>
+            </fixedFlow>
+        </flowConstraints>
+        <capabilities/>
+        <operationalProperties>
+            <modifiesCas>true</modifiesCas>
+            <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+            <outputsNewCASes>false</outputsNewCASes>
+        </operationalProperties>
+    </analysisEngineMetaData>
+</analysisEngineDescription>
