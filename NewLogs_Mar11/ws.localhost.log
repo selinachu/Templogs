@@ -1,0 +1,157 @@
+11 Mar 2016 09:41:52,036  INFO WS.WebServerComponent - N/A Component  Starting Component WebServer
+11 Mar 2016 09:41:52,041  INFO WS.WebServerComponent - N/A WebServerComponent  ##### boot #####
+11 Mar 2016 09:41:52,041  INFO WS.WebServerComponent - N/A WebServerComponent  ducc.broker.url=tcp://localhost:61617?jms.useCompression=true
+11 Mar 2016 09:41:52,041  INFO WS.WebServerComponent - N/A WebServerComponent  tcp://localhost:61617?jms.useCompression=true
+11 Mar 2016 09:41:52,048  INFO WS.DuccWebServer - N/A init  cluster name:Apache UIMA-DUCC
+11 Mar 2016 09:41:52,048  INFO WS.DuccWebServer - N/A init  class definition file:ducc.classes
+11 Mar 2016 09:41:52,048  INFO WS.DuccWebServer - N/A init  port:42133
+11 Mar 2016 09:41:52,048  INFO WS.DuccWebServer - N/A init  SSL port:42155
+11 Mar 2016 09:41:52,075  INFO WS.DuccWebMonitor - N/A initialize  timeout minutes: 5
+11 Mar 2016 09:41:52,084  INFO WS.DuccWebMonitor - N/A register  localhost:42133 is cancel monitor localhost:42133
+11 Mar 2016 09:41:52,204  INFO WS.DuccWebServer - N/A init  keystore:./etc/keystore
+11 Mar 2016 09:41:52,326  INFO WS.DuccWebServer - N/A init  requestLogRetainDays=30
+11 Mar 2016 09:41:52,331  INFO WS.DuccWebServer - N/A init  requestLogFile=/Users/ducc/apache-uima-ducc-2.0.1/logs/webserver/yyyy_MM_dd.request.log
+11 Mar 2016 09:41:52,358  INFO WS.DuccAuthenticator - N/A initializeAuthenticator  org.apache.uima.ducc.ws.authentication.LinuxAuthenticationManager
+11 Mar 2016 09:41:52,360  INFO WS.DuccAuthenticator - N/A initializeAuthenticator  ducc linux 1.0
+11 Mar 2016 09:41:52,385  INFO WS.NodeViz - N/A NodeViz  ------------------------------------------------------------------------------------
+11 Mar 2016 09:41:52,386  INFO WS.NodeViz - N/A NodeViz  Node Visualization starting:
+11 Mar 2016 09:41:52,386  INFO WS.NodeViz - N/A NodeViz      DUCC home               :  /Users/ducc/apache-uima-ducc-2.0.1
+11 Mar 2016 09:41:52,386  INFO WS.NodeViz - N/A NodeViz      ActiveMQ URL            :  tcp://localhost:61617?jms.useCompression=true
+11 Mar 2016 09:41:52,386  INFO WS.NodeViz - N/A NodeViz  Using Share Quantum         :  1
+11 Mar 2016 09:41:52,386  INFO WS.NodeViz - N/A NodeViz  Viz update Interval         :  60000
+11 Mar 2016 09:41:52,386  INFO WS.NodeViz - N/A NodeViz  Web Server Host             :  localhost
+11 Mar 2016 09:41:52,386  INFO WS.NodeViz - N/A NodeViz  Web Server Port             :  42133
+11 Mar 2016 09:41:52,386  INFO WS.NodeViz - N/A NodeViz  Strip Domains               :  true
+11 Mar 2016 09:41:52,386  INFO WS.NodeViz - N/A NodeViz  
+11 Mar 2016 09:41:52,387  INFO WS.NodeViz - N/A NodeViz      JVM                     :  Oracle Corporation 1.7.0_79
+11 Mar 2016 09:41:52,387  INFO WS.NodeViz - N/A NodeViz      JAVA_HOME               :  /Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre
+11 Mar 2016 09:41:52,387  INFO WS.NodeViz - N/A NodeViz      JVM Path                :  /Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/bin/java
+11 Mar 2016 09:41:52,387  INFO WS.NodeViz - N/A NodeViz      JMX URL                 :  <null>
+11 Mar 2016 09:41:52,387  INFO WS.NodeViz - N/A NodeViz  
+11 Mar 2016 09:41:52,387  INFO WS.NodeViz - N/A NodeViz      OS Architecture         :  x86_64
+11 Mar 2016 09:41:52,387  INFO WS.NodeViz - N/A NodeViz  
+11 Mar 2016 09:41:52,388  INFO WS.NodeViz - N/A NodeViz      DUCC Version            :  2.0.1
+11 Mar 2016 09:41:52,388  INFO WS.NodeViz - N/A NodeViz      Vizualization Version   :  1.1.0
+11 Mar 2016 09:41:52,388  INFO WS.NodeViz - N/A NodeViz  ------------------------------------------------------------------------------------
+11 Mar 2016 09:41:52,773  INFO WS.WebServerComponent - N/A webServerStart  webserver started
+11 Mar 2016 09:41:52,775  INFO WS.DuccBoot - N/A initialize  max history limit:4096
+11 Mar 2016 09:41:52,775  INFO WS.DuccBoot - N/A run  booting...
+11 Mar 2016 09:41:52,776  INFO WS.DuccBoot - N/A restore  History directory:/Users/ducc/apache-uima-ducc-2.0.1/history/
+11 Mar 2016 09:41:52,791  INFO WS.DuccBoot - N/A restoreReservations  Number of Reservations to restore:63
+11 Mar 2016 09:41:52,867  WARN WS.WebServerConfiguration - N/A webServer  db endpoint not configured
+11 Mar 2016 09:41:52,881  INFO WS.WebServerComponent - N/A boot  ... Starting Component:  webServer
+11 Mar 2016 09:41:52,881  INFO WS.WebServerComponent - N/A start  .....Starting Admin Channel on endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,882  INFO WS.WebServerComponent - N/A configure  Configuring Admin Channel on Endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,904  INFO WS.WebServerComponent - N/A startAdminChannel  Admin Channel Activated on endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,904  INFO WS.WebServerComponent - N/A start  Admin Channel started on endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,904  INFO WS.WebServerComponent - N/A start  .....Starting Camel Context
+11 Mar 2016 09:41:53,137  INFO WS.DuccBoot - N/A restoreReservations  Reservations restored: 63
+11 Mar 2016 09:41:53,143  INFO WS.DuccBoot - N/A restoreJobs  Number of Jobs to restore:73
+11 Mar 2016 09:41:53,860  INFO WS.DuccBoot - N/A restoreJobs  Jobs restored: 73
+11 Mar 2016 09:41:53,860  INFO WS.DuccBoot - N/A restoreServices  Number of Services to restore:0
+11 Mar 2016 09:41:53,860  INFO WS.DuccBoot - N/A restoreServices  Services restored: 0
+11 Mar 2016 09:41:53,861  INFO WS.DuccData - N/A report  73:63:0:63
+11 Mar 2016 09:41:53,861  INFO WS.DuccBoot - N/A run  ready.
+11 Mar 2016 09:41:54,063  INFO WS.WebServerComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.orchestrator.state Route State:Started
+11 Mar 2016 09:41:54,086  INFO WS.WebServerComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.node.metrics Route State:Started
+11 Mar 2016 09:41:54,115  INFO WS.WebServerComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.rm.state Route State:Started
+11 Mar 2016 09:41:54,124  INFO WS.WebServerComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.sm.state Route State:Started
+11 Mar 2016 09:41:54,134  INFO WS.WebServerComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.pm.state Route State:Started
+11 Mar 2016 09:41:54,147  INFO WS.WebServerComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.admin.channel Route State:Started
+11 Mar 2016 09:41:54,147  INFO WS.WebServerComponent - N/A start  ..... Camel Initialized and Started
+11 Mar 2016 09:41:54,147  INFO WS.WebServerComponent - N/A start  ..... Starting JMX Agent
+11 Mar 2016 09:41:54,281  INFO WS.WebServerComponent - N/A start  ..... JMX Agent Ready
+11 Mar 2016 09:41:54,281  INFO WS.WebServerComponent - N/A start  Connect jConsole to this process using JMX URL:service:jmx:rmi:///jndi/rmi://Little-Bear:2103/jmxrmi
+11 Mar 2016 09:41:54,287  INFO WS.WebServerComponent - N/A boot  ... Component started:  webServer
+11 Mar 2016 09:41:54,287  INFO WS.WebServerComponent - N/A boot  Starting Camel. Use ctrl + c to terminate the JVM.
+
+11 Mar 2016 09:41:54,372  INFO WS.WebServerComponent - N/A update  jobs:0 reservations:2 services:0
+11 Mar 2016 09:41:54,441  INFO WS.DuccWebMonitorReservation - 133 monitor  monitor start
+11 Mar 2016 09:41:54,442  INFO WS.DuccWebMonitorReservation - 133 monitor  auto-cancel off
+11 Mar 2016 09:41:54,442  INFO WS.DuccWebMonitorReservation - 133 monitor  state: Completed
+11 Mar 2016 09:41:54,442  INFO WS.DuccWebMonitorReservation - 135 monitor  monitor start
+11 Mar 2016 09:41:54,442  INFO WS.DuccWebMonitorReservation - 135 monitor  auto-cancel off
+11 Mar 2016 09:41:54,442  INFO WS.DuccWebMonitorReservation - 135 monitor  state: WaitingForResources
+11 Mar 2016 09:43:04,075  INFO WS.DuccWebMonitorReservation - 135 monitor  state: Assigned
+11 Mar 2016 09:43:54,064  INFO WS.WebServerComponent - N/A update  jobs:0 reservations:1 services:0
+11 Mar 2016 09:43:54,072  INFO WS.DuccWebMonitorReservation - 133 monitor  monitor stop
+11 Mar 2016 09:45:07,054  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@1380562761 org.eclipse.jetty.server.Request@5249b749
+11 Mar 2016 09:45:07,057  INFO WS.DuccWebMonitorJob - N/A renew  Waiting for update...
+11 Mar 2016 09:45:14,066  INFO WS.WebServerComponent - N/A update  jobs:1 reservations:1 services:0
+11 Mar 2016 09:45:14,071  INFO WS.DuccWebMonitorJob - 136 monitor  monitor start
+11 Mar 2016 09:45:14,071  INFO WS.DuccWebMonitorJob - 136 monitor  auto-cancel on
+11 Mar 2016 09:45:14,072  INFO WS.DuccWebMonitorJob - 136 monitor  state: WaitingForDriver
+11 Mar 2016 09:45:15,072  INFO WS.DuccWebMonitorJob - 136 renew  Waiting complete.
+11 Mar 2016 09:45:15,072  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:45:25,147  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@2005788781 org.eclipse.jetty.server.Request@778de86d
+11 Mar 2016 09:45:25,147  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:45:35,193  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@655891937 org.eclipse.jetty.server.Request@27181de1
+11 Mar 2016 09:45:35,193  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:45:45,233  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@947220351 org.eclipse.jetty.server.Request@38756f7f
+11 Mar 2016 09:45:45,233  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:45:55,271  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@145419924 org.eclipse.jetty.server.Request@8aaee94
+11 Mar 2016 09:45:55,271  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:46:04,069  INFO WS.DuccWebMonitorJob - 136 monitor  state: WaitingForResources
+11 Mar 2016 09:46:05,308  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@1204782882 org.eclipse.jetty.server.Request@47cf8722
+11 Mar 2016 09:46:05,308  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:46:15,350  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@836911100 org.eclipse.jetty.server.Request@31e23ffc
+11 Mar 2016 09:46:15,350  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:46:24,069  INFO WS.DuccWebMonitorJob - 136 monitor  state: Assigned
+11 Mar 2016 09:46:25,386  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@1916915392 org.eclipse.jetty.server.Request@7241cec0
+11 Mar 2016 09:46:25,386  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:46:35,421  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@1603189238 org.eclipse.jetty.server.Request@5f8eb9f6
+11 Mar 2016 09:46:35,421  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:46:44,069  INFO WS.DuccWebMonitorJob - 136 monitor  state: Initializing
+11 Mar 2016 09:46:45,459  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@1374652061 org.eclipse.jetty.server.Request@51ef869d
+11 Mar 2016 09:46:45,459  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:46:55,494  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@866526631 org.eclipse.jetty.server.Request@33a625a7
+11 Mar 2016 09:46:55,494  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:47:05,527  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@837311555 org.eclipse.jetty.server.Request@31e85c43
+11 Mar 2016 09:47:05,527  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:47:15,567  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@2000580422 org.eclipse.jetty.server.Request@773e6f46
+11 Mar 2016 09:47:15,567  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:47:25,603  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@30368133 org.eclipse.jetty.server.Request@1cf6185
+11 Mar 2016 09:47:25,603  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:47:35,639  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@45742123 org.eclipse.jetty.server.Request@2b9f82b
+11 Mar 2016 09:47:35,639  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:47:44,073  INFO WS.DuccWebMonitorJob - 136 monitor  state: Running
+11 Mar 2016 09:47:45,676  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@1927950766 org.eclipse.jetty.server.Request@72ea31ae
+11 Mar 2016 09:47:45,676  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:47:55,724  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@559950179 org.eclipse.jetty.server.Request@21602963
+11 Mar 2016 09:47:55,724  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:48:05,762  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@780928702 org.eclipse.jetty.server.Request@2e8c06be
+11 Mar 2016 09:48:05,762  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:48:14,062  INFO WS.DuccWebMonitorJob - 136 monitor  state: Completing
+11 Mar 2016 09:48:15,796  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@412967219 org.eclipse.jetty.server.Request@189d6133
+11 Mar 2016 09:48:15,796  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:48:25,827  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@1625639443 org.eclipse.jetty.server.Request@60e54a13
+11 Mar 2016 09:48:25,827  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:48:35,860  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@204740556 org.eclipse.jetty.server.Request@c3417cc
+11 Mar 2016 09:48:35,860  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:48:45,894  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@1263077336 org.eclipse.jetty.server.Request@4b4907d8
+11 Mar 2016 09:48:45,894  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:48:55,929  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@688468220 org.eclipse.jetty.server.Request@290930fc
+11 Mar 2016 09:48:55,929  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:49:05,964  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@901902812 org.eclipse.jetty.server.Request@35c1f1dc
+11 Mar 2016 09:49:05,964  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:49:16,001  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@1745508895 org.eclipse.jetty.server.Request@680a5a1f
+11 Mar 2016 09:49:16,001  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:49:26,036  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@2033435567 org.eclipse.jetty.server.Request@7933c3af
+11 Mar 2016 09:49:26,036  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:49:36,067  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@529074523 org.eclipse.jetty.server.Request@1f89095b
+11 Mar 2016 09:49:36,067  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:49:46,099  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@841122667 org.eclipse.jetty.server.Request@3222836b
+11 Mar 2016 09:49:46,099  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:49:56,134  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@221011021 org.eclipse.jetty.server.Request@d2c5c4d
+11 Mar 2016 09:49:56,134  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:50:06,167  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@1161610779 org.eclipse.jetty.server.Request@453cc61b
+11 Mar 2016 09:50:06,167  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:50:16,200  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@1001750368 org.eclipse.jetty.server.Request@3bb57f60
+11 Mar 2016 09:50:16,200  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:50:26,233  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@6657991 org.eclipse.jetty.server.Request@6597c7
+11 Mar 2016 09:50:26,233  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:50:36,266  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@8511801 org.eclipse.jetty.server.Request@81e139
+11 Mar 2016 09:50:36,266  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended
+11 Mar 2016 09:50:44,066  INFO WS.DuccWebMonitorJob - 136 monitor  state: Completed
+11 Mar 2016 09:50:46,298  INFO WS.DuccHandlerProxy - N/A handleServletJobStatus  [GET /ducc-servlet/proxy-job-status?id=136]@1470810911 org.eclipse.jetty.server.Request@57aacb1f
+11 Mar 2016 09:50:46,298  INFO WS.DuccWebMonitorJob - 136 renew  auto-cancel expiry extended

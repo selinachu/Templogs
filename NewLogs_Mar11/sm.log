@@ -1,0 +1,448 @@
+11 Mar 2016 09:41:51,977  INFO SM.ServiceManagerComponent - N/A Component  Starting Component ServiceManager
+11 Mar 2016 09:41:52,284  INFO SM.ServiceManagerComponent - N/A boot  ... Starting Component:  serviceManager
+11 Mar 2016 09:41:52,285  INFO SM.ServiceManagerComponent - N/A start  .....Starting Admin Channel on endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,285  INFO SM.ServiceManagerComponent - N/A configure  Configuring Admin Channel on Endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,286  INFO SM.ServiceManagerComponent - N/A startAdminChannel  Admin Channel Activated on endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,287  INFO SM.ServiceManagerComponent - N/A start  Admin Channel started on endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,287  INFO SM.ServiceManagerComponent - N/A start  .....Starting Camel Context
+11 Mar 2016 09:41:53,318  INFO SM.ServiceManagerComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.orchestrator.state Route State:Started
+11 Mar 2016 09:41:53,554  INFO SM.ServiceManagerComponent - N/A start  ---OR Route in Camel Context-http://0.0.0.0:19989/sm Route State:Started
+11 Mar 2016 09:41:53,575  INFO SM.ServiceManagerComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.admin.channel Route State:Started
+11 Mar 2016 09:41:53,575  INFO SM.ServiceManagerComponent - N/A start  ..... Camel Initialized and Started
+11 Mar 2016 09:41:53,575  INFO SM.ServiceManagerComponent - N/A start  ..... Starting JMX Agent
+11 Mar 2016 09:41:53,692  INFO SM.ServiceManagerComponent - N/A start  ..... JMX Agent Ready
+11 Mar 2016 09:41:53,692  INFO SM.ServiceManagerComponent - N/A start  Connect jConsole to this process using JMX URL:service:jmx:rmi:///jndi/rmi://Little-Bear:2101/jmxrmi
+11 Mar 2016 09:41:53,708  INFO SM.ServiceManagerComponent - N/A start  ---------------------------- NEW -----------------------------------------------------
+11 Mar 2016 09:41:53,708  INFO SM.ServiceManagerComponent - N/A start  Service Manager starting:
+11 Mar 2016 09:41:53,708  INFO SM.ServiceManagerComponent - N/A start      DUCC home               :  /Users/ducc/apache-uima-ducc-2.0.1
+11 Mar 2016 09:41:53,708  INFO SM.ServiceManagerComponent - N/A start      ActiveMQ URL            :  tcp://localhost:61617?jms.useCompression=true
+11 Mar 2016 09:41:53,708  INFO SM.ServiceManagerComponent - N/A start  
+11 Mar 2016 09:41:53,708  INFO SM.ServiceManagerComponent - N/A start      JVM                     :  Oracle Corporation 1.7.0_79
+11 Mar 2016 09:41:53,708  INFO SM.ServiceManagerComponent - N/A start      JAVA_HOME               :  /Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre
+11 Mar 2016 09:41:53,708  INFO SM.ServiceManagerComponent - N/A start      JVM Path                :  /Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/bin/java
+11 Mar 2016 09:41:53,709  INFO SM.ServiceManagerComponent - N/A start      JMX URL                 :  service:jmx:rmi:///jndi/rmi://Little-Bear:2101/jmxrmi
+11 Mar 2016 09:41:53,709  INFO SM.ServiceManagerComponent - N/A start  
+11 Mar 2016 09:41:53,709  INFO SM.ServiceManagerComponent - N/A start      OS Architecture         :  x86_64
+11 Mar 2016 09:41:53,709  INFO SM.ServiceManagerComponent - N/A start      Crypto enabled          :  true
+11 Mar 2016 09:41:53,709  INFO SM.ServiceManagerComponent - N/A start  
+11 Mar 2016 09:41:53,709  INFO SM.ServiceManagerComponent - N/A start      Test mode enabled       :  false
+11 Mar 2016 09:41:53,709  INFO SM.ServiceManagerComponent - N/A start  
+11 Mar 2016 09:41:53,709  INFO SM.ServiceManagerComponent - N/A start      Service ping rate       :  60000
+11 Mar 2016 09:41:53,709  INFO SM.ServiceManagerComponent - N/A start      Service ping timeout    :  15000
+11 Mar 2016 09:41:53,710  INFO SM.ServiceManagerComponent - N/A start      Service ping stability  :  10
+11 Mar 2016 09:41:53,710  INFO SM.ServiceManagerComponent - N/A start      Default ping class      :  org.apache.uima.ducc.cli.UimaAsPing
+11 Mar 2016 09:41:53,710  INFO SM.ServiceManagerComponent - N/A start  
+11 Mar 2016 09:41:53,710  INFO SM.ServiceManagerComponent - N/A start      Init Failure Max        :  1
+11 Mar 2016 09:41:53,710  INFO SM.ServiceManagerComponent - N/A start      Instance Failure Max    :  5
+11 Mar 2016 09:41:53,710  INFO SM.ServiceManagerComponent - N/A start      Instance Failure Window :  30
+11 Mar 2016 09:41:53,710  INFO SM.ServiceManagerComponent - N/A start  
+11 Mar 2016 09:41:53,711  INFO SM.ServiceManagerComponent - N/A start      DUCC Version            :  2.0.1
+11 Mar 2016 09:41:53,711  INFO SM.ServiceManagerComponent - N/A start      SM Version              :  2.0.0
+11 Mar 2016 09:41:53,711  INFO SM.ServiceManagerComponent - N/A start  ------------------------------------------------------------------------------------
+11 Mar 2016 09:41:53,711  INFO SM.ServiceManagerComponent - N/A readAdministrators  DUCC Administrator registered: ducc
+11 Mar 2016 09:41:53,712  INFO SM.ServiceManagerComponent - N/A run  Starting Service Manager
+11 Mar 2016 09:41:53,713  INFO SM.ServiceManagerComponent - N/A boot  ... Component started:  serviceManager
+11 Mar 2016 09:41:53,713  INFO SM.ServiceManagerComponent - N/A boot  Starting Camel. Use ctrl + c to terminate the JVM.
+
+11 Mar 2016 09:41:54,432  INFO SM.ServiceManagerComponent - N/A orchestratorStateArrives  Orchestrator JD node not assigned, ignoring Orchestrator state update.
+11 Mar 2016 09:42:04,109  INFO SM.ServiceManagerComponent - N/A orchestratorStateArrives  Orchestrator JD node not assigned, ignoring Orchestrator state update.
+11 Mar 2016 09:42:14,088  INFO SM.ServiceManagerComponent - N/A orchestratorStateArrives  Orchestrator JD node not assigned, ignoring Orchestrator state update.
+11 Mar 2016 09:42:24,089  INFO SM.ServiceManagerComponent - N/A orchestratorStateArrives  Orchestrator JD node not assigned, ignoring Orchestrator state update.
+11 Mar 2016 09:42:34,092  INFO SM.ServiceManagerComponent - N/A orchestratorStateArrives  Orchestrator JD node not assigned, ignoring Orchestrator state update.
+11 Mar 2016 09:42:44,078  INFO SM.ServiceManagerComponent - N/A orchestratorStateArrives  Orchestrator JD node not assigned, ignoring Orchestrator state update.
+11 Mar 2016 09:42:54,071  INFO SM.ServiceManagerComponent - N/A orchestratorStateArrives  Orchestrator JD node not assigned, ignoring Orchestrator state update.
+11 Mar 2016 09:43:04,080  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:43:04,088  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:43:04,088  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:43:04,089  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 0
+11 Mar 2016 09:43:04,089  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+[empty]
+
+11 Mar 2016 09:43:14,074  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:43:14,074  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:43:14,074  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:43:14,075  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 0
+11 Mar 2016 09:43:14,075  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+[empty]
+
+11 Mar 2016 09:43:24,075  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:43:24,075  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:43:24,075  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:43:24,075  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 0
+11 Mar 2016 09:43:24,075  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+[empty]
+
+11 Mar 2016 09:43:34,069  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:43:34,070  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:43:34,070  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:43:34,070  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 0
+11 Mar 2016 09:43:34,070  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+[empty]
+
+11 Mar 2016 09:43:44,067  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:43:44,067  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:43:44,067  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:43:44,067  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 0
+11 Mar 2016 09:43:44,068  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+[empty]
+
+11 Mar 2016 09:43:54,066  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:43:54,067  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:43:54,067  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:43:54,067  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 0
+11 Mar 2016 09:43:54,067  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+[empty]
+
+11 Mar 2016 09:44:04,064  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:44:04,064  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:44:04,064  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:44:04,064  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 0
+11 Mar 2016 09:44:04,064  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+[empty]
+
+11 Mar 2016 09:44:14,068  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:44:14,068  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:44:14,068  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:44:14,068  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 0
+11 Mar 2016 09:44:14,068  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+[empty]
+
+11 Mar 2016 09:44:24,064  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:44:24,064  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:44:24,064  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:44:24,064  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 0
+11 Mar 2016 09:44:24,065  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+[empty]
+
+11 Mar 2016 09:44:34,063  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:44:34,063  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:44:34,063  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:44:34,063  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 0
+11 Mar 2016 09:44:34,063  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+[empty]
+
+11 Mar 2016 09:44:44,063  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:44:44,063  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:44:44,063  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:44:44,063  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 0
+11 Mar 2016 09:44:44,063  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+[empty]
+
+11 Mar 2016 09:44:54,067  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:44:54,067  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:44:54,067  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:44:54,068  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 0
+11 Mar 2016 09:44:54,068  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+[empty]
+
+11 Mar 2016 09:45:04,064  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:45:04,064  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:45:04,064  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:45:04,064  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 0
+11 Mar 2016 09:45:04,064  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+[empty]
+
+11 Mar 2016 09:45:14,084  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:45:14,086  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:45:14,086  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:45:14,089  INFO SM.ServiceHandler - 136 handleNewJobs  Added to map, no service dependencies.
+11 Mar 2016 09:45:14,089  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:45:14,089  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:45:24,069  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:45:24,071  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:45:24,071  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:45:24,071  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:45:24,071  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:45:24,071  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:45:34,070  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:45:34,070  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:45:34,071  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:45:34,071  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:45:34,071  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:45:34,071  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:45:44,069  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:45:44,070  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:45:44,070  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:45:44,070  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:45:44,070  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:45:44,070  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:45:54,070  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:45:54,070  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:45:54,071  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:45:54,071  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:45:54,071  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:45:54,071  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:46:04,070  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:46:04,070  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:46:04,070  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:46:04,070  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:46:04,070  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:46:04,070  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:46:14,068  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:46:14,068  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:46:14,069  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:46:14,069  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:46:14,069  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:46:14,069  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:46:24,067  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:46:24,068  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:46:24,068  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:46:24,068  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:46:24,068  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:46:24,068  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:46:34,067  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:46:34,067  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:46:34,067  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:46:34,067  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:46:34,067  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:46:34,067  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:46:44,069  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:46:44,070  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:46:44,070  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:46:44,070  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:46:44,070  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:46:44,070  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:46:54,065  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:46:54,065  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:46:54,065  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:46:54,065  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:46:54,065  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:46:54,065  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:47:04,070  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:47:04,070  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:47:04,070  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:47:04,071  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:47:04,071  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:47:04,071  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:47:14,073  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:47:14,073  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:47:14,073  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:47:14,073  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:47:14,073  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:47:14,074  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:47:24,073  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:47:24,074  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:47:24,074  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:47:24,074  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:47:24,074  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:47:24,074  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:47:34,063  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:47:34,064  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:47:34,064  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:47:34,064  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:47:34,064  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:47:34,064  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:47:44,073  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:47:44,073  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:47:44,074  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:47:44,074  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:47:44,074  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:47:44,074  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:47:54,069  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:47:54,070  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:47:54,070  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:47:54,070  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:47:54,070  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:47:54,070  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:48:04,060  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:48:04,061  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:48:04,061  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:48:04,061  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:48:04,061  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:48:04,061  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:48:14,062  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:48:14,062  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:48:14,062  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:48:14,062  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:48:14,062  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:48:14,062  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:48:24,064  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:48:24,064  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:48:24,064  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:48:24,065  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:48:24,065  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:48:24,065  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:48:34,063  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:48:34,063  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:48:34,063  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:48:34,063  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:48:34,063  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:48:34,063  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:48:44,065  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:48:44,065  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:48:44,066  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:48:44,066  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:48:44,066  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:48:44,066  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:48:54,069  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:48:54,069  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:48:54,069  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:48:54,069  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:48:54,069  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:48:54,069  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:49:04,062  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:49:04,063  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:49:04,063  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:49:04,063  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:49:04,063  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:49:04,063  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:49:14,064  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:49:14,065  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:49:14,065  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:49:14,065  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:49:14,065  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:49:14,065  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:49:24,062  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:49:24,062  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:49:24,062  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:49:24,062  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:49:24,062  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:49:24,062  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:49:34,060  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:49:34,060  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:49:34,060  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:49:34,060  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:49:34,060  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:49:34,061  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:49:44,062  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:49:44,062  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:49:44,062  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:49:44,062  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:49:44,062  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:49:44,062  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:49:54,062  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:49:54,062  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:49:54,062  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:49:54,062  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:49:54,062  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:49:54,062  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:50:04,066  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:50:04,066  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:50:04,066  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:50:04,066  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:50:04,067  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:50:04,067  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:50:14,064  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:50:14,064  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:50:14,064  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:50:14,064  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:50:14,064  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:50:14,065  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:50:24,059  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:50:24,059  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:50:24,060  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:50:24,060  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:50:24,060  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:50:24,060  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:50:34,062  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:50:34,062  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:50:34,062  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:50:34,062  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:50:34,062  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:50:34,062  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:50:44,063  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:50:44,063  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:50:44,063  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:50:44,063  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:50:44,063  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:50:44,063  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:50:54,060  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:50:54,060  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:50:54,060  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:50:54,060  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:50:54,060  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:50:54,061  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:51:04,060  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:51:04,061  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:51:04,061  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:51:04,061  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:51:04,061  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:51:04,061  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:51:14,063  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:51:14,064  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:51:14,064  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:51:14,064  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:51:14,064  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:51:14,064  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+
+11 Mar 2016 09:51:24,060  INFO SM.ServiceManagerComponent - N/A processIncoming  ===== Orchestrator State Arrives =====
+11 Mar 2016 09:51:24,060  INFO SM.ServiceHandler - N/A runCommands  Running 0 API Tasks.
+11 Mar 2016 09:51:24,060  INFO SM.ServiceHandler - N/A processUpdates  Processing updates.
+11 Mar 2016 09:51:24,061  INFO SM.ServiceHandler - 136 handleModifiedobs  No service dependencies, no updates made.
+11 Mar 2016 09:51:24,061  INFO SM.ServiceManagerComponent - N/A publish  Publishing State, active job count = 1
+11 Mar 2016 09:51:24,061  INFO SM.ServiceManagerComponent - N/A publish  Service Map
+Job 136 Service state Available
+

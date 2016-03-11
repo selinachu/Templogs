@@ -1,0 +1,172 @@
+11 Mar 2016 09:41:52,042  INFO OR.OrchestratorCheckpoint - N/A restoreState  restoring from:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:41:52,121  INFO OR.OrchestratorCheckpoint - N/A restoreState  restored
+11 Mar 2016 09:41:52,131  INFO OR.OrchestratorComponent - N/A Component  Starting Component Orchestrator
+11 Mar 2016 09:41:52,432  INFO OR.OrchestratorComponent - N/A boot  ... Starting Component:  orchestrator
+11 Mar 2016 09:41:52,434  INFO OR.OrchestratorComponent - N/A getStartType  start type: warm, override
+11 Mar 2016 09:41:52,435  INFO OR.OrchestratorComponent - N/A start  ##### warm #####
+11 Mar 2016 09:41:52,443  INFO OR.OrchestratorComponent - 133 cancel  CanceledBySystem
+11 Mar 2016 09:41:52,443  INFO OR.OrchestratorCheckpoint - N/A saveState  saving to:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:41:52,485  INFO OR.OrchestratorCheckpoint - N/A saveState  saved:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:41:52,491  INFO OR.ReservationFactory - 135 create  user:System
+11 Mar 2016 09:41:52,491  INFO OR.ReservationFactory - 135 create  description:Job Driver
+11 Mar 2016 09:41:52,491  INFO OR.ReservationFactory - 135 create  class:JobDriver
+11 Mar 2016 09:41:52,491  INFO OR.ReservationFactory - 135 create  priority:0
+11 Mar 2016 09:41:52,491  INFO OR.ReservationFactory - 135 create  memory:2GB
+11 Mar 2016 09:41:52,492  INFO OR.ReservationFactory - 135 create  instances:1
+11 Mar 2016 09:41:52,494  INFO OR.OrchestratorCheckpoint - N/A saveState  saving to:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:41:52,540  INFO OR.OrchestratorCheckpoint - N/A saveState  saved:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:41:52,540  INFO OR.OrchestratorCheckpoint - N/A saveState  saving to:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:41:52,585  INFO OR.OrchestratorCheckpoint - N/A saveState  saved:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:41:52,585  INFO OR.OrchestratorComponent - N/A resolveSignatureRequired  ducc.signature.required: on
+11 Mar 2016 09:41:52,588  INFO OR.MaintenanceThread - N/A initialize  rate:60000
+11 Mar 2016 09:41:52,588  INFO OR.OrchestratorComponent - N/A start  .....Starting Admin Channel on endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,589  INFO OR.OrchestratorComponent - N/A configure  Configuring Admin Channel on Endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,590  INFO OR.OrchestratorComponent - N/A startAdminChannel  Admin Channel Activated on endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,591  INFO OR.OrchestratorComponent - N/A start  Admin Channel started on endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,591  INFO OR.OrchestratorComponent - N/A start  .....Starting Camel Context
+11 Mar 2016 09:41:53,850  INFO OR.OrchestratorComponent - N/A start  ---OR Route in Camel Context-http://0.0.0.0:19988/or Route State:Started
+11 Mar 2016 09:41:54,009  INFO OR.OrchestratorComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.rm.state Route State:Started
+11 Mar 2016 09:41:54,018  INFO OR.OrchestratorComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.sm.state Route State:Started
+11 Mar 2016 09:41:54,027  INFO OR.OrchestratorComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.jd.state Route State:Started
+11 Mar 2016 09:41:54,044  INFO OR.OrchestratorComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.node.inventory Route State:Started
+11 Mar 2016 09:41:54,048  INFO OR.OrchestratorComponent - N/A start  ---OR Route in Camel Context-timer://orchestratorStateDumpTimer?fixedRate=true&period=10000 Route State:Started
+11 Mar 2016 09:41:54,061  INFO OR.OrchestratorComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.admin.channel Route State:Started
+11 Mar 2016 09:41:54,061  INFO OR.OrchestratorComponent - N/A start  ..... Camel Initialized and Started
+11 Mar 2016 09:41:54,061  INFO OR.OrchestratorComponent - N/A start  ..... Starting JMX Agent
+11 Mar 2016 09:41:54,203  INFO OR.OrchestratorComponent - N/A start  ..... JMX Agent Ready
+11 Mar 2016 09:41:54,203  INFO OR.OrchestratorComponent - N/A start  Connect jConsole to this process using JMX URL:service:jmx:rmi:///jndi/rmi://Little-Bear:2102/jmxrmi
+11 Mar 2016 09:41:54,207  INFO OR.OrchestratorComponent - N/A boot  ... Component started:  orchestrator
+11 Mar 2016 09:41:54,208  INFO OR.OrchestratorComponent - N/A boot  Starting Camel. Use ctrl + c to terminate the JVM.
+
+11 Mar 2016 09:42:54,307  INFO OR.StateManager - 135 reconcileState (RM)  pending additions:1
+11 Mar 2016 09:42:54,314  INFO OR.StateManager - 1 reservationMapResourcesAdd  add resource name:localhost ip:127.0.0.1
+11 Mar 2016 09:42:54,314  INFO OR.StateManager - 135 reconcileState (RM)  resources count:1
+11 Mar 2016 09:42:54,314  INFO OR.OrchestratorCheckpoint - N/A saveState  saving to:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:42:54,322  INFO OR.OrchestratorCheckpoint - N/A saveState  saved:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:43:04,055  INFO OR.JobDriverHostManager - N/A tryAssignment  assigned:localhost 127.0.0.1
+11 Mar 2016 09:43:52,415  INFO OR.StateManager - 133 prune  removed reservation
+11 Mar 2016 09:43:52,415  INFO OR.OrchestratorCheckpoint - N/A saveState  saving to:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:43:52,421  INFO OR.OrchestratorCheckpoint - N/A saveState  saved:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:45:06,909  WARN OR.JobFactory - N/A checkSpec  unrecognized: classpath
+11 Mar 2016 09:45:06,909  WARN OR.JobFactory - N/A checkSpec  unrecognized: environment
+11 Mar 2016 09:45:06,909  WARN OR.JobFactory - N/A checkSpec  unrecognized: cancel_on_interrupt
+11 Mar 2016 09:45:06,916  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.WorkItemTimeout=5
+11 Mar 2016 09:45:06,916  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JobDirectory=/Users/ducc/src/logs
+11 Mar 2016 09:45:06,916  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpFlowController=org.apache.uima.ducc.FlowController
+11 Mar 2016 09:45:06,916  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpAeDescriptor=/Users/ducc/src/apache-ctakes-3.2.2/desc/ctakes-clinical-pipeline/desc/analysis_engine/AggregatePlaintextUMLSProcessor.xml
+11 Mar 2016 09:45:06,916  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpAeOverrides=null
+11 Mar 2016 09:45:06,916  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpCcDescriptor=/Users/ducc/src/apache-ctakes-3.2.2/desc/ctakes-core/desc/cas_consumer/FileWriterCasConsumer.xml
+11 Mar 2016 09:45:06,917  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpCcOverrides=outputDir=/Users/ducc/shangridocs/shangridocs-services/src/main/resources/buffer/outfiles
+11 Mar 2016 09:45:06,917  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpCmDescriptor=null
+11 Mar 2016 09:45:06,917  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpCmOverrides=null
+11 Mar 2016 09:45:06,917  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpDd=null
+11 Mar 2016 09:45:06,917  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpDdName=DUCC.Job
+11 Mar 2016 09:45:06,917  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpDdDescription=DUCC.Generated
+11 Mar 2016 09:45:06,917  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpThreadCount=2
+11 Mar 2016 09:45:06,917  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpDdBrokerURL=${broker.name}
+11 Mar 2016 09:45:06,917  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpDdBrokerEndpoint=${queue.name}
+11 Mar 2016 09:45:06,917  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.UserErrorHandlerClassname=null
+11 Mar 2016 09:45:06,917  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.UserErrorHandlerCfg=null
+11 Mar 2016 09:45:06,918  INFO OR.JobFactory - 136 createDriver  driver env vars: 6
+11 Mar 2016 09:45:06,921  INFO OR.ProcessAccounting - 136 addProcess 0  added
+11 Mar 2016 09:45:06,922  INFO OR.JobFactory - N/A specification  scheduling_class:normal
+11 Mar 2016 09:45:06,922  INFO OR.JobFactory - N/A specification  process_descriptor_AE:/Users/ducc/src/apache-ctakes-3.2.2/desc/ctakes-clinical-pipeline/desc/analysis_engine/AggregatePlaintextUMLSProcessor.xml
+11 Mar 2016 09:45:06,922  INFO OR.JobFactory - N/A specification  process_thread_count:2
+11 Mar 2016 09:45:06,922  INFO OR.JobFactory - N/A specification  process_failures_limit:20
+11 Mar 2016 09:45:06,922  INFO OR.JobFactory - N/A specification  driver_jvm_args:-Xmx4g
+11 Mar 2016 09:45:06,922  INFO OR.JobFactory - N/A specification  driver_descriptor_CR_overrides:InputDirectory=/Users/ducc/shangridocs/shangridocs-services/src/main/resources/buffer/infiles
+11 Mar 2016 09:45:06,922  INFO OR.JobFactory - N/A specification  signature:null
+11 Mar 2016 09:45:06,922  INFO OR.JobFactory - N/A specification  process_per_item_time_max:5
+11 Mar 2016 09:45:06,922  INFO OR.JobFactory - N/A specification  classpath:/Users/ducc/src/apache-ctakes-3.2.2/desc:/Users/ducc/src/apache-ctakes-3.2.2/resources:/Users/ducc/src/apache-ctakes-3.2.2/lib/*:/Users/ducc/apache-uima-ducc-2.0.1/lib/*
+11 Mar 2016 09:45:06,922  INFO OR.JobFactory - N/A specification  process_deployments_max:999
+11 Mar 2016 09:45:06,922  INFO OR.JobFactory - N/A specification  wait_for_completion:
+11 Mar 2016 09:45:06,922  INFO OR.JobFactory - N/A specification  user:ducc
+11 Mar 2016 09:45:06,922  INFO OR.JobFactory - N/A specification  environment:HOME=/Users/ducc AE_INIT_TIME=5 AE_INIT_RANGE=5 INIT_ERROR=0 LANG=en_US.UTF-8 USER=ducc 
+11 Mar 2016 09:45:06,923  INFO OR.JobFactory - N/A specification  working_directory:/Users/ducc/src
+11 Mar 2016 09:45:06,923  INFO OR.JobFactory - N/A specification  specification:/Users/ducc/shangridocs/shangridocs-services/src/main/resources/ctakes.job
+11 Mar 2016 09:45:06,923  INFO OR.JobFactory - N/A specification  submitter_pid_at_host:1924@Little-Bear
+11 Mar 2016 09:45:06,923  INFO OR.JobFactory - N/A specification  process_descriptor_CC:/Users/ducc/src/apache-ctakes-3.2.2/desc/ctakes-core/desc/cas_consumer/FileWriterCasConsumer.xml
+11 Mar 2016 09:45:06,923  INFO OR.JobFactory - N/A specification  cancel_on_interrupt:
+11 Mar 2016 09:45:06,923  INFO OR.JobFactory - N/A specification  log_directory:/Users/ducc/src/logs
+11 Mar 2016 09:45:06,923  INFO OR.JobFactory - N/A specification  process_initialization_time_max:1
+11 Mar 2016 09:45:06,923  INFO OR.JobFactory - N/A specification  process_jvm_args:-Xmx4g
+11 Mar 2016 09:45:06,923  INFO OR.JobFactory - N/A specification  process_descriptor_CC_overrides:outputDir=/Users/ducc/shangridocs/shangridocs-services/src/main/resources/buffer/outfiles
+11 Mar 2016 09:45:06,923  INFO OR.JobFactory - N/A specification  description:Testing cTAKES
+11 Mar 2016 09:45:06,923  INFO OR.JobFactory - N/A specification  driver_descriptor_CR:/Users/ducc/src/apache-ctakes-3.2.2/desc/ctakes-core/desc/collection_reader/FilesInDirectoryCollectionReader.xml
+11 Mar 2016 09:45:06,923  INFO OR.JobFactory - N/A specification  process_memory_size:2
+11 Mar 2016 09:45:06,923  INFO OR.JobFactory - N/A specification  process_initialization_failures_cap:99
+11 Mar 2016 09:45:06,924  INFO OR.JobFactory - 136 checkSchedulingLimits  change max-shares from 999 to 250
+11 Mar 2016 09:45:06,925  INFO OR.JobFactory - 136 dump  brokerURL     tcp://localhost:61617?jms.useCompression=true
+11 Mar 2016 09:45:06,925  INFO OR.JobFactory - 136 dump  endpoint      ducc.jd.queue.136
+11 Mar 2016 09:45:06,925  INFO OR.JobFactory - 136 dump  description   Testing cTAKES
+11 Mar 2016 09:45:06,925  INFO OR.JobFactory - 136 dump  name          ducc.jd.queue.136
+11 Mar 2016 09:45:06,925  INFO OR.JobFactory - 136 dump  thread-count  2
+11 Mar 2016 09:45:06,925  INFO OR.JobFactory - 136 dump  descriptor    /Users/ducc/src/apache-ctakes-3.2.2/desc/ctakes-clinical-pipeline/desc/analysis_engine/AggregatePlaintextUMLSProcessor.xml
+11 Mar 2016 09:45:06,925  INFO OR.JobFactory - 136 dump  descriptor    /Users/ducc/src/apache-ctakes-3.2.2/desc/ctakes-core/desc/cas_consumer/FileWriterCasConsumer.xml
+11 Mar 2016 09:45:06,925  INFO OR.JobFactory - 136 dump  override      outputDir=/Users/ducc/shangridocs/shangridocs-services/src/main/resources/buffer/outfiles
+11 Mar 2016 09:45:06,926  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpType=uima
+11 Mar 2016 09:45:06,926  INFO OR.JobFactory - N/A addDashD  -Dducc.deploy.JpThreadCount=2
+11 Mar 2016 09:45:06,926  INFO OR.JobFactory - 136 create  process env vars: 6
+11 Mar 2016 09:45:06,938  WARN OR.DuccAsUser - N/A duckling  stderr: 1100 Unable to initialize groups for ducc.: Operation not permitted
+11 Mar 2016 09:45:06,939  INFO OR.StateJobAccounting - 136 stateChange  current[Received] previous[Undefined]
+11 Mar 2016 09:45:06,939  INFO OR.OrchestratorCheckpoint - N/A saveState  saving to:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:45:06,951  INFO OR.OrchestratorCheckpoint - N/A saveState  saved:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:45:06,957  WARN OR.DuccAsUser - N/A duckling  stderr: 1100 Unable to initialize groups for ducc.: Operation not permitted
+11 Mar 2016 09:45:06,957  INFO OR.StateJobAccounting - 136 stateChange  current[WaitingForDriver] previous[Received]
+11 Mar 2016 09:45:06,957  INFO OR.OrchestratorCheckpoint - N/A saveState  saving to:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:45:06,963  INFO OR.OrchestratorCheckpoint - N/A saveState  saved:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:45:36,628  INFO OR.OrchestratorComponent - 136 reconcileJdState  state: Initializing total: 1 done: 0 error: 0 killJob: false 
+11 Mar 2016 09:45:36,629  INFO OR.ProcessAccounting - 136 setStatus  reduced max-shares 250 to max-usable 1
+11 Mar 2016 09:45:56,830  INFO OR.OrchestratorComponent - 136 reconcileJdState  state: Initializing total: 1 done: 0 error: 0 killJob: false 
+11 Mar 2016 09:45:56,830  INFO OR.StateManager - 136 addJdPortToJpCommandLine  -Dducc.deploy.JdURL=http://127.0.0.1:49675/jdApp
+11 Mar 2016 09:45:56,835  WARN OR.DuccAsUser - N/A duckling  stderr: 1100 Unable to initialize groups for ducc.: Operation not permitted
+11 Mar 2016 09:45:56,836  INFO OR.StateJobAccounting - 136 stateChange  current[WaitingForResources] previous[WaitingForDriver]
+11 Mar 2016 09:46:17,007  INFO OR.OrchestratorComponent - 136 reconcileJdState  state: Initializing total: 1 done: 0 error: 0 killJob: false 
+11 Mar 2016 09:46:20,002  INFO OR.StateManager - 136 reconcileState (RM)  pending additions:1
+11 Mar 2016 09:46:20,003  INFO OR.ProcessAccounting - 136 addProcess 2  added
+11 Mar 2016 09:46:20,003  INFO OR.StateManager - 136 processMapResourcesAdd  resource added process:2 unique:69b71957-4f7f-493f-89d7-222c8c68b221 name:localhost ip:127.0.0.1
+11 Mar 2016 09:46:20,003  INFO OR.StateManager - 136 isExcessCapacity  todo:1 adjTodo:2 capacity:0 excess:false
+11 Mar 2016 09:46:20,010  WARN OR.DuccAsUser - N/A duckling  stderr: 1100 Unable to initialize groups for ducc.: Operation not permitted
+11 Mar 2016 09:46:20,010  INFO OR.StateJobAccounting - 136 stateChange  current[Assigned] previous[WaitingForResources]
+11 Mar 2016 09:46:20,010  INFO OR.StateManager - 136 reconcileState (RM)  resources count:1
+11 Mar 2016 09:46:20,010  INFO OR.OrchestratorCheckpoint - N/A saveState  saving to:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:46:20,015  INFO OR.OrchestratorCheckpoint - N/A saveState  saved:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:46:35,679  INFO OR.StateManager - 136 reconcileState (RM)  pending additions:1
+11 Mar 2016 09:46:35,679  WARN OR.StateManager - 136 processMapResourcesAdd  resource exists process:2 unique:69b71957-4f7f-493f-89d7-222c8c68b221 name:localhost ip:127.0.0.1
+11 Mar 2016 09:46:37,119  INFO OR.OrchestratorComponent - 136 reconcileJdState  state: Initializing total: 1 done: 0 error: 0 killJob: false 
+11 Mar 2016 09:46:37,125  WARN OR.DuccAsUser - N/A duckling  stderr: 1100 Unable to initialize groups for ducc.: Operation not permitted
+11 Mar 2016 09:46:37,126  INFO OR.StateJobAccounting - 136 stateChange  current[Initializing] previous[Assigned]
+11 Mar 2016 09:46:52,762  INFO OR.StateManager - 136 reconcileState (Node Inventory)  pid:2059 state:Initializing reason:null 
+11 Mar 2016 09:47:07,460  INFO OR.OrchestratorComponent - 136 reconcileJdState  state: Initializing total: 1 done: 0 error: 0 killJob: false 
+11 Mar 2016 09:47:12,761  INFO OR.StateManager - 136 reconcileState (Node Inventory)  pid:2059 state:Initializing reason:null 
+11 Mar 2016 09:47:38,955  INFO OR.OrchestratorComponent - 136 reconcileJdState  state: Active total: 1 done: 0 error: 0 killJob: false 
+11 Mar 2016 09:47:38,962  WARN OR.DuccAsUser - N/A duckling  stderr: 1100 Unable to initialize groups for ducc.: Operation not permitted
+11 Mar 2016 09:47:38,963  INFO OR.StateJobAccounting - 136 stateChange  current[Running] previous[Initializing]
+11 Mar 2016 09:47:38,963  INFO OR.StateManager - 136 isExcessCapacity  todo:1 adjTodo:2 capacity:0 excess:false
+11 Mar 2016 09:48:09,283  INFO OR.OrchestratorComponent - 136 reconcileJdState  state: Ended total: 1 done: 1 error: 0 killJob: false 
+11 Mar 2016 09:48:09,290  WARN OR.DuccAsUser - N/A duckling  stderr: 1100 Unable to initialize groups for ducc.: Operation not permitted
+11 Mar 2016 09:48:09,290  INFO OR.StateJobAccounting - 136 stateChange  current[Completing] previous[Running]
+11 Mar 2016 09:48:09,290  INFO OR.StateManager - 136 stopJps 2  deallocated
+11 Mar 2016 09:48:09,291  INFO OR.StateManager - 136 isExcessCapacity  todo:0 adjTodo:0 capacity:0 excess:false
+11 Mar 2016 09:48:39,649  INFO OR.OrchestratorComponent - 136 reconcileJdState  state: Ended total: 1 done: 1 error: 0 killJob: false 
+11 Mar 2016 09:48:39,649  INFO OR.StateManager - 136 isExcessCapacity  todo:0 adjTodo:0 capacity:0 excess:false
+11 Mar 2016 09:49:10,001  INFO OR.OrchestratorComponent - 136 reconcileJdState  state: Ended total: 1 done: 1 error: 0 killJob: false 
+11 Mar 2016 09:49:10,002  INFO OR.StateManager - 136 isExcessCapacity  todo:0 adjTodo:0 capacity:0 excess:false
+11 Mar 2016 09:49:41,629  INFO OR.OrchestratorComponent - 136 reconcileJdState  state: Ended total: 1 done: 1 error: 0 killJob: false 
+11 Mar 2016 09:49:41,630  INFO OR.StateManager - 136 isExcessCapacity  todo:0 adjTodo:0 capacity:0 excess:false
+11 Mar 2016 09:50:11,985  INFO OR.OrchestratorComponent - 136 reconcileJdState  state: Ended total: 1 done: 1 error: 0 killJob: false 
+11 Mar 2016 09:50:11,986  INFO OR.StateManager - 136 isExcessCapacity  todo:0 adjTodo:0 capacity:0 excess:false
+11 Mar 2016 09:50:42,327  INFO OR.OrchestratorComponent - 136 reconcileJdState  state: Ended total: 1 done: 1 error: 0 killJob: false 
+11 Mar 2016 09:50:42,327  INFO OR.StateManager - 136 isExcessCapacity  todo:0 adjTodo:0 capacity:0 excess:false
+11 Mar 2016 09:50:42,759  INFO OR.ProcessAccounting - 136 copyReasonForStoppingProcess 2  process reason code:Deallocated
+11 Mar 2016 09:50:42,765  WARN OR.DuccAsUser - N/A duckling  stderr: 1100 Unable to initialize groups for ducc.: Operation not permitted
+11 Mar 2016 09:50:42,771  WARN OR.DuccAsUser - N/A duckling  stderr: 1100 Unable to initialize groups for ducc.: Operation not permitted
+11 Mar 2016 09:50:42,776  WARN OR.DuccAsUser - N/A duckling  stderr: 1100 Unable to initialize groups for ducc.: Operation not permitted
+11 Mar 2016 09:50:42,776  INFO OR.StateJobAccounting - 136 stateChange  current[Completed] previous[Completing]
+11 Mar 2016 09:50:52,437  INFO OR.HealthMonitor - 136 isDriverCompleted 0  JobCompleted
+11 Mar 2016 09:50:52,438  INFO OR.OrchestratorCheckpoint - N/A saveState  saving to:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:50:52,443  INFO OR.OrchestratorCheckpoint - N/A saveState  saved:/Users/ducc/apache-uima-ducc-2.0.1/state//orchestrator.ckpt
+11 Mar 2016 09:51:12,666  INFO OR.OrchestratorComponent - 136 reconcileJdState  state: Ended total: 1 done: 1 error: 0 killJob: false 
+11 Mar 2016 09:51:12,667  INFO OR.StateManager - 136 isExcessCapacity  todo:0 adjTodo:0 capacity:0 excess:false
+11 Mar 2016 09:51:22,766  INFO OR.ProcessAccounting - 136 copyReasonForStoppingProcess 0  process reason code:KilledByDucc
+11 Mar 2016 09:51:22,766  INFO OR.ProcessAccounting - 136 copyProcessExitCode 0  process exit code:143

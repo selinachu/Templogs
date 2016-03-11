@@ -1,0 +1,373 @@
+11 Mar 2016 09:41:51,969  INFO ProcessManagerConfiguration.ProcessManagerConfiguration - N/A processManager()  PM publishes state update to Agents on endpoint:activemq:topic:ducc.agent
+11 Mar 2016 09:41:51,976  INFO ProcessManager.ProcessManagerComponent - N/A Component  Starting Component ProcessManager
+11 Mar 2016 09:41:51,981  INFO ProcessManager.DuccWorkHelper - N/A getTargetUrl  http://localhost:19988/or
+11 Mar 2016 09:41:52,091  INFO ProcessManager.ProcessManagerComponent - N/A boot  ... Starting Component:  processManager
+11 Mar 2016 09:41:52,091  INFO ProcessManager.ProcessManagerComponent - N/A start  .....Starting Admin Channel on endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,092  INFO ProcessManager.ProcessManagerComponent - N/A configure  Configuring Admin Channel on Endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,110  INFO ProcessManager.ProcessManagerComponent - N/A startAdminChannel  Admin Channel Activated on endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,111  INFO ProcessManager.ProcessManagerComponent - N/A start  Admin Channel started on endpoint:activemq:topic:ducc.admin.channel
+11 Mar 2016 09:41:52,111  INFO ProcessManager.ProcessManagerComponent - N/A start  .....Starting Camel Context
+11 Mar 2016 09:41:53,184  INFO ProcessManager.ProcessManagerComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.orchestrator.state Route State:Started
+11 Mar 2016 09:41:53,204  INFO ProcessManager.ProcessManagerComponent - N/A start  ---OR Route in Camel Context-timer://pmStateDumpTimer?fixedRate=true&period=15000 Route State:Started
+11 Mar 2016 09:41:53,252  INFO ProcessManager.ProcessManagerComponent - N/A start  ---OR Route in Camel Context-activemq://topic:ducc.admin.channel Route State:Started
+11 Mar 2016 09:41:53,253  INFO ProcessManager.ProcessManagerComponent - N/A start  ..... Camel Initialized and Started
+11 Mar 2016 09:41:53,253  INFO ProcessManager.ProcessManagerComponent - N/A start  ..... Starting JMX Agent
+11 Mar 2016 09:41:53,424  INFO ProcessManager.ProcessManagerComponent - N/A start  ..... JMX Agent Ready
+11 Mar 2016 09:41:53,424  INFO ProcessManager.ProcessManagerComponent - N/A start  Connect jConsole to this process using JMX URL:service:jmx:rmi:///jndi/rmi://Little-Bear:2099/jmxrmi
+11 Mar 2016 09:41:53,437  INFO ProcessManager.ProcessManagerComponent - N/A start  --PM started - jmx URL:service:jmx:rmi:///jndi/rmi://Little-Bear:2099/jmxrmi
+11 Mar 2016 09:41:53,437  INFO ProcessManager.ProcessManagerComponent - N/A boot  ... Component started:  processManager
+11 Mar 2016 09:41:53,437  INFO ProcessManager.ProcessManagerComponent - N/A boot  Starting Camel. Use ctrl + c to terminate the JVM.
+
+11 Mar 2016 09:41:54,401  INFO ProcessManager.ProcessManagerComponent - N/A onJobManagerStateUpdate  Orchestrator JD node not assigned. Ignoring Orchestrator state update
+11 Mar 2016 09:42:04,110  INFO ProcessManager.ProcessManagerComponent - N/A onJobManagerStateUpdate  Orchestrator JD node not assigned. Ignoring Orchestrator state update
+11 Mar 2016 09:42:14,090  INFO ProcessManager.ProcessManagerComponent - N/A onJobManagerStateUpdate  Orchestrator JD node not assigned. Ignoring Orchestrator state update
+11 Mar 2016 09:42:24,090  INFO ProcessManager.ProcessManagerComponent - N/A onJobManagerStateUpdate  Orchestrator JD node not assigned. Ignoring Orchestrator state update
+11 Mar 2016 09:42:34,089  INFO ProcessManager.ProcessManagerComponent - N/A onJobManagerStateUpdate  Orchestrator JD node not assigned. Ignoring Orchestrator state update
+11 Mar 2016 09:42:44,081  INFO ProcessManager.ProcessManagerComponent - N/A onJobManagerStateUpdate  Orchestrator JD node not assigned. Ignoring Orchestrator state update
+11 Mar 2016 09:42:54,072  INFO ProcessManager.ProcessManagerComponent - N/A onJobManagerStateUpdate  Orchestrator JD node not assigned. Ignoring Orchestrator state update
+11 Mar 2016 09:43:04,090  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:0 Reservation List:0
+11 Mar 2016 09:43:04,093 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:43:14,076  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:0 Reservation List:0
+11 Mar 2016 09:43:14,077 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:43:24,078  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:0 Reservation List:0
+11 Mar 2016 09:43:24,079 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:43:34,074  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:0 Reservation List:0
+11 Mar 2016 09:43:34,074 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:43:44,069  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:0 Reservation List:0
+11 Mar 2016 09:43:44,070 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:43:54,071  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:0 Reservation List:0
+11 Mar 2016 09:43:54,072 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:44:04,069  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:0 Reservation List:0
+11 Mar 2016 09:44:04,069 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:44:14,071  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:0 Reservation List:0
+11 Mar 2016 09:44:14,071 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:44:24,068  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:0 Reservation List:0
+11 Mar 2016 09:44:24,069 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:44:34,063  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:0 Reservation List:0
+11 Mar 2016 09:44:34,064 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:44:44,065  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:0 Reservation List:0
+11 Mar 2016 09:44:44,066 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:44:54,068  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:0 Reservation List:0
+11 Mar 2016 09:44:54,069 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:45:04,064  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:0 Reservation List:0
+11 Mar 2016 09:45:04,064 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:45:14,086  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: WaitingForDriver	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |          |Undefined      |Allocated      |127.0.0.1    |localhost                                    |Undefined                |N/A                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:45:14,086 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:45:14,087 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:45:25,735 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is WaitingForDriver
+11 Mar 2016 09:45:25,736  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:45:25,737 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:45:25,748  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: WaitingForDriver	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |          |Undefined      |Allocated      |127.0.0.1    |localhost                                    |Undefined                |N/A                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:45:25,748 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:45:25,748 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:45:35,967 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is WaitingForDriver
+11 Mar 2016 09:45:35,968  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:45:35,968 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:45:35,978  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: WaitingForDriver	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |N/A                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:45:35,979 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:45:35,979 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:45:46,195 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is WaitingForDriver
+11 Mar 2016 09:45:46,195  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:45:46,196 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:45:46,206  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: WaitingForDriver	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |N/A                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:45:46,206 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:45:46,206 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:45:56,405 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is WaitingForDriver
+11 Mar 2016 09:45:56,405  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:45:56,406 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:45:56,415  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: WaitingForDriver	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |N/A                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:45:56,415 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:45:56,415 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:46:06,617 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is WaitingForDriver
+11 Mar 2016 09:46:06,618  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:46:06,618 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:46:06,626  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: WaitingForResources	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:46:06,626 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:46:06,626 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:46:16,808 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is WaitingForResources
+11 Mar 2016 09:46:16,808  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:46:16,809 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:46:16,817  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: WaitingForResources	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:46:16,817 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:46:16,817 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:46:26,974 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is WaitingForResources
+11 Mar 2016 09:46:26,974  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:46:26,975 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:46:26,984  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Assigned	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |          |Undefined      |Allocated      |127.0.0.1    |localhost                                    |Undefined                |N/A                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:46:26,984 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:46:26,984 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:46:47,276 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is Assigned
+11 Mar 2016 09:46:47,276  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:46:47,277 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:46:47,286  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Assigned	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |          |Undefined      |Allocated      |127.0.0.1    |localhost                                    |Undefined                |N/A                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:46:47,286 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:46:47,286 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:47:07,593 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is Initializing
+11 Mar 2016 09:47:07,593  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:47:07,594 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:47:07,612  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Initializing	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |          |Undefined      |Allocated      |127.0.0.1    |localhost                                    |Undefined                |N/A                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:47:07,613 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:47:07,613 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:47:28,915 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is Initializing
+11 Mar 2016 09:47:28,915  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:47:28,915 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:47:28,929  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Initializing	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |2059      |Initializing   |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:47:28,930 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:47:28,930 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:47:49,209 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is Initializing
+11 Mar 2016 09:47:49,209  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:47:49,209 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:47:49,219  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Initializing	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |2059      |Initializing   |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:47:49,220 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:47:49,220 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:48:09,539 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is Running
+11 Mar 2016 09:48:09,539  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:48:09,540 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:48:09,548  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Initializing	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |2059      |Initializing   |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:48:09,549 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:48:09,549 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:48:29,878 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is Completing
+11 Mar 2016 09:48:29,878  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:48:29,878 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:48:29,884  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Initializing	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |2059      |Initializing   |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:48:29,884 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:48:29,885 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:48:50,046 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is Completing
+11 Mar 2016 09:48:50,046  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:48:50,047 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:48:50,053  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Initializing	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |2059      |Initializing   |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:48:50,054 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:48:50,054 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:49:10,366 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is Completing
+11 Mar 2016 09:49:10,366  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:49:10,367 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:49:10,372  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Running	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |2059      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:49:10,372 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:49:10,372 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:49:31,608 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is Completing
+11 Mar 2016 09:49:31,608  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:49:31,609 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:49:31,615  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Running	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |2059      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:49:31,615 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:49:31,615 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:49:51,878 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is Completing
+11 Mar 2016 09:49:51,878  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:49:51,879 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:49:51,885  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Running	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |2059      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:49:51,885 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:49:51,885 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:50:12,203 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is Completing
+11 Mar 2016 09:50:12,203  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:50:12,204 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:50:12,211  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Completing	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |2059      |Running        |Deallocated    |127.0.0.1    |localhost                                    |Voluntary                |service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:50:12,211 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:50:12,211 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:50:32,422 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is Completing
+11 Mar 2016 09:50:32,422  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:50:32,422 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:50:32,428  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Completing	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |2059      |Running        |Deallocated    |127.0.0.1    |localhost                                    |Voluntary                |service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:50:32,429 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:50:32,429 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:50:52,747 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is Completing
+11 Mar 2016 09:50:52,747  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:50:52,748 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:50:52,755  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Completing	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |2059      |Running        |Deallocated    |127.0.0.1    |localhost                                    |Voluntary                |service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:50:52,755 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:50:52,755 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
+11 Mar 2016 09:51:13,004 DEBUG ProcessManager.DuccWorkHelper - 136 fetch  state is Completed
+11 Mar 2016 09:51:13,005  INFO ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  ---- PM Dispatching DuccJobsStateEvent request to Agent(s) - State Map Size:1 Reservation List:0
+11 Mar 2016 09:51:13,005 DEBUG ProcessManager.ProcessManagerComponent - N/A dispatchStateUpdateToAgents  +++++ PM Dispatched State To Agent(s)
+11 Mar 2016 09:51:13,012  INFO ProcessManager.ProcessManagerComponent - N/A dumpState  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Job ID: 136	JobState: Completing	JobSubmittedBy: ducc
+
+DuccId         |ProcessType         |PID       |ProcessState   |ResourceState  |NodeIP       |NodeName                                     |DeallocationType         |JMX Url
+                                     --------------------------------------------------------------------------------------------------------------------------------------------------------------
+0              |Pop                 |1930      |Running        |Allocated      |127.0.0.1    |localhost                                    |Undefined                |service:jmx:rmi:///jndi/rmi://Little-Bear:2105/jmxrmi
+2              |Job_Uima_AS_Process |2059      |Running        |Deallocated    |127.0.0.1    |localhost                                    |Voluntary                |service:jmx:rmi:///jndi/rmi://Little-Bear:2106/jmxrmi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11 Mar 2016 09:51:13,012 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  --------------- User Requested Memory For Process:2GB PM Calculated Memory Assignment of:2150
+11 Mar 2016 09:51:13,012 DEBUG ProcessManager.ProcessManagerComponent - 136 dispatchStateUpdateToAgents  case: Job
